@@ -11,6 +11,12 @@ meta:
   # date and uses the first available close as each company's baseline.
   ytd_start: "2026-01-01"
 
+# Market benchmarks for the recovery-arc overlay (YTD % over time, not tracked
+# as companies). IGV = iShares Expanded Tech-Software ETF; ^GSPC = S&P 500.
+benchmarks:
+  - { ticker: IGV,   name: Software ETF (IGV) }
+  - { ticker: "^GSPC", name: S&P 500 }
+
 buckets:
   # ---------------------------------------------------------------------------
   # S&P 500 software & services — the names the FT counts in the index.

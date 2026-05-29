@@ -1,2 +1,5 @@
-yfinance>=0.2.40
+yfinance>=0.2.50
 pyyaml>=6.0
+# Browser impersonation — yfinance auto-uses curl_cffi when installed, which
+# dramatically reduces Yahoo's bot-blocking/rate-limiting.
+curl_cffi>=0.7
