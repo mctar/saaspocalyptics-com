@@ -1,0 +1,98 @@
+# The tracked universe for SaaSpocalyptics, in three buckets.
+# Edit freely — fetch.py reads this file. Tickers that return no data
+# (delistings, bad symbols, illiquid foreign lines) are logged and skipped,
+# so a wrong symbol degrades gracefully rather than breaking the run.
+#
+# currency defaults to USD when omitted. Non-USD names are labelled in the UI,
+# not FX-converted, to keep YTD % honest (percentage change is currency-neutral).
+
+meta:
+  # First trading day of 2026 is the YTD baseline. fetch.py fetches from this
+  # date and uses the first available close as each company's baseline.
+  ytd_start: "2026-01-01"
+
+buckets:
+  # ---------------------------------------------------------------------------
+  # S&P 500 software & services — the names the FT counts in the index.
+  # ---------------------------------------------------------------------------
+  sp500_software:
+    label: "S&P 500 Software & Services"
+    blurb: "The index incumbents. Most are still below where they started 2026."
+    members:
+      - { ticker: MSFT, name: Microsoft }
+      - { ticker: ORCL, name: Oracle }
+      - { ticker: CRM,  name: Salesforce }
+      - { ticker: ADBE, name: Adobe }
+      - { ticker: NOW,  name: ServiceNow }
+      - { ticker: INTU, name: Intuit }
+      - { ticker: WDAY, name: Workday }
+      - { ticker: PANW, name: Palo Alto Networks }
+      - { ticker: CRWD, name: CrowdStrike }
+      - { ticker: FTNT, name: Fortinet }
+      - { ticker: ADSK, name: Autodesk }
+      - { ticker: CDNS, name: Cadence Design }
+      - { ticker: SNPS, name: Synopsys }
+      - { ticker: ROP,  name: Roper Technologies }
+      - { ticker: FICO, name: Fair Isaac }
+      - { ticker: IT,   name: Gartner }
+      - { ticker: ANSS, name: Ansys }
+      - { ticker: PTC,  name: PTC }
+      - { ticker: PAYC, name: Paycom }
+      - { ticker: TYL,  name: Tyler Technologies }
+      - { ticker: AKAM, name: Akamai }
+      - { ticker: GEN,  name: Gen Digital }
+      - { ticker: VRSN, name: Verisign }
+      - { ticker: NET,  name: Cloudflare }
+      - { ticker: PLTR, name: Palantir }
+      - { ticker: DDOG, name: Datadog }
+      - { ticker: WIX,  name: Wix }
+      - { ticker: TEAM, name: Atlassian }
+
+  # ---------------------------------------------------------------------------
+  # Big SaaS outside the index — large, watched, but excluded from the S&P 500
+  # (often still unprofitable, like Snowflake).
+  # ---------------------------------------------------------------------------
+  big_saas_outside:
+    label: "Big SaaS Outside the Index"
+    blurb: "Heavyweights the S&P 500 won't yet admit — Snowflake's home turf."
+    members:
+      - { ticker: SNOW, name: Snowflake }
+      - { ticker: MDB,  name: MongoDB }
+      - { ticker: ZS,   name: Zscaler }
+      - { ticker: OKTA, name: Okta }
+      - { ticker: HUBS, name: HubSpot }
+      - { ticker: TWLO, name: Twilio }
+      - { ticker: CFLT, name: Confluent }
+      - { ticker: GTLB, name: GitLab }
+      - { ticker: MNDY, name: monday.com }
+      - { ticker: IOT,  name: Samsara }
+      - { ticker: BILL, name: BILL Holdings }
+      - { ticker: TOST, name: Toast }
+      - { ticker: PCOR, name: Procore }
+      - { ticker: ESTC, name: Elastic }
+      - { ticker: DBX,  name: Dropbox }
+      - { ticker: BOX,  name: Box }
+      - { ticker: PATH, name: UiPath }
+      - { ticker: DOCN, name: DigitalOcean }
+      - { ticker: FROG, name: JFrog }
+      - { ticker: DSY.PA, name: Dassault Systèmes, currency: EUR }
+
+  # ---------------------------------------------------------------------------
+  # Global system integrators — the services firms whose fortunes are tied to
+  # the same AI-vs-software question. Foreign lines use yfinance suffixes.
+  # ---------------------------------------------------------------------------
+  gsi:
+    label: "Global System Integrators"
+    blurb: "The consultancies selling the transformation that unsettles the rest."
+    members:
+      - { ticker: ACN,    name: Accenture }
+      - { ticker: IBM,    name: IBM }
+      - { ticker: CTSH,   name: Cognizant }
+      - { ticker: INFY,   name: Infosys (ADR) }
+      - { ticker: WIT,    name: Wipro (ADR) }
+      - { ticker: EPAM,   name: EPAM Systems }
+      - { ticker: DXC,    name: DXC Technology }
+      - { ticker: G,      name: Genpact }
+      - { ticker: CAP.PA, name: Capgemini, currency: EUR }
+      - { ticker: TCS.NS, name: Tata Consultancy Services, currency: INR }
+      - { ticker: INFY.NS, name: Infosys (NSE), currency: INR }
