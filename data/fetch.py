@@ -33,6 +33,12 @@ from pathlib import Path
 
 import yaml
 
+# yfinance auto-selects curl_cffi when it's importable, but its bundled TLS lib
+# is broken on hugin's aarch64 Linux (every request fails). Hide curl_cffi so
+# yfinance uses plain requests. A single batched download a few times a day is
+# gentle enough on Yahoo without browser impersonation.
+sys.modules["curl_cffi"] = None  # type: ignore[assignment]
+
 try:
     import yfinance as yf
     import pandas as pd
