@@ -36,6 +36,31 @@ export function buildDek(data: MarketData): string {
   return s
 }
 
+// --- Rule-of-40 dislocation lenses: cross-reference fundamentals × price ---
+export type Lens = 'all' | 'pass40' | 'qualityOnSale' | 'pricedForHope'
+
+export const LENSES: { key: Lens; label: string; hint: string }[] = [
+  { key: 'all', label: 'All names', hint: 'no fundamentals filter' },
+  { key: 'pass40', label: 'Passes 40', hint: 'Rule of 40 ≥ 40' },
+  { key: 'qualityOnSale', label: 'Quality on sale', hint: 'R40 ≥ 40, yet down YTD' },
+  { key: 'pricedForHope', label: 'Priced for hope', hint: 'R40 < 25, yet up YTD' },
+]
+
+/** Does a company match a dislocation lens? Names without fundamentals only match 'all'. */
+export function matchesLens(c: Company, lens: Lens): boolean {
+  const r = c.fundamentals?.ruleOf40
+  switch (lens) {
+    case 'all':
+      return true
+    case 'pass40':
+      return r != null && r >= 40
+    case 'qualityOnSale':
+      return r != null && r >= 40 && c.ytdPct < 0
+    case 'pricedForHope':
+      return r != null && r < 25 && c.ytdPct > 0
+  }
+}
+
 /** Biggest winner/loser, flagging an extreme outlier so it doesn't mislead. */
 export function headlineMovers(rows: Company[]) {
   const sorted = [...rows].sort((a, b) => b.ytdPct - a.ytdPct)

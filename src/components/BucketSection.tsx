@@ -1,5 +1,6 @@
 import type { Bucket, SortKey } from '../lib/types'
 import { sortCompanies, median, pct } from '../lib/format'
+import { matchesLens, type Lens } from '../lib/brief'
 import CompanyRow from './CompanyRow'
 
 interface Props {
@@ -7,11 +8,13 @@ interface Props {
   bucket: Bucket
   sortKey: SortKey
   query: string
+  lens: Lens
   index: number
 }
 
-export default function BucketSection({ bucket, sortKey, query, index }: Props) {
+export default function BucketSection({ bucket, sortKey, query, lens, index }: Props) {
   const filtered = bucket.members.filter((c) => {
+    if (!matchesLens(c, lens)) return false
     if (!query) return true
     const q = query.toLowerCase()
     return c.name.toLowerCase().includes(q) || c.ticker.toLowerCase().includes(q)
@@ -21,6 +24,7 @@ export default function BucketSection({ bucket, sortKey, query, index }: Props) 
   const med = median(bucket.members.map((c) => c.ytdPct))
   const negative = bucket.members.filter((c) => c.ytdPct < 0).length
   const total = bucket.members.length
+  const isFiltered = lens !== 'all' || query.length > 0
 
   return (
     <section className="mb-14 scroll-mt-24">
@@ -37,14 +41,18 @@ export default function BucketSection({ bucket, sortKey, query, index }: Props) 
           </div>
         </div>
         <div className="flex shrink-0 gap-6 border-l border-rule pl-6">
-          <Metric value={pct(med)} label="median YTD" tone={med >= 0 ? 'teal' : 'claret'} />
+          {isFiltered ? (
+            <Metric value={`${rows.length}/${total}`} label="matching" tone={rows.length ? undefined : 'claret'} />
+          ) : (
+            <Metric value={pct(med)} label="median YTD" tone={med >= 0 ? 'teal' : 'claret'} />
+          )}
           <Metric value={`${negative}/${total}`} label="in the red" />
         </div>
       </div>
 
       {rows.length === 0 ? (
         <p className="border-t border-rule py-6 text-sm italic text-ink-soft">
-          No names match “{query}”.
+          No names in this category match the current filter.
         </p>
       ) : (
         <div className="border-t-2 border-ink">

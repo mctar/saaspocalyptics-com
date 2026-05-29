@@ -5,9 +5,8 @@ import RecoveryArc from './components/RecoveryArc'
 import SummaryStats from './components/SummaryStats'
 import Filters from './components/Filters'
 import BucketSection from './components/BucketSection'
-import Scatter from './components/Scatter'
-import { BUCKET_COLOR } from './components/Scatter'
-import { allRows } from './lib/brief'
+import Scatter, { BUCKET_COLOR } from './components/Scatter'
+import { allRows, type Lens } from './lib/brief'
 
 type LoadState =
   | { status: 'loading' }
@@ -18,6 +17,8 @@ export default function App() {
   const [state, setState] = useState<LoadState>({ status: 'loading' })
   const [sortKey, setSortKey] = useState<SortKey>('ytd')
   const [query, setQuery] = useState('')
+  const [lens, setLens] = useState<Lens>('all')
+  const [category, setCategory] = useState('all')
 
   useEffect(() => {
     fetch('data/market.json', { cache: 'no-cache' })
@@ -46,6 +47,10 @@ export default function App() {
   const history = data.history ?? []
   const benchName = (t: string) => data.benchmarks?.find((b) => b.ticker === t)?.name ?? t
 
+  const allEntries = Object.entries(data.buckets)
+  const categories = allEntries.map(([key, b]) => ({ key, label: b.label, color: BUCKET_COLOR[key] }))
+  const shownEntries = allEntries.filter(([id]) => category === 'all' || id === category)
+
   return (
     <div className="min-h-screen">
       <Hero data={data} />
@@ -64,27 +69,49 @@ export default function App() {
       <SummaryStats all={all} />
 
       <main className="mx-auto max-w-5xl px-4">
-        <Filters sortKey={sortKey} setSortKey={setSortKey} query={query} setQuery={setQuery} />
-        {Object.entries(data.buckets).map(([id, bucket], i) => (
-          <BucketSection key={id} id={id} index={i} bucket={bucket} sortKey={sortKey} query={query} />
+        <Filters
+          sortKey={sortKey}
+          setSortKey={setSortKey}
+          query={query}
+          setQuery={setQuery}
+          lens={lens}
+          setLens={setLens}
+          category={category}
+          setCategory={setCategory}
+          categories={categories}
+        />
+        {shownEntries.map(([id, bucket]) => (
+          <BucketSection
+            key={id}
+            id={id}
+            index={allEntries.findIndex(([k]) => k === id)}
+            bucket={bucket}
+            sortKey={sortKey}
+            query={query}
+            lens={lens}
+          />
         ))}
       </main>
 
-      {/* Fundamentals scatter */}
+      {/* Fundamentals scatter — reflects the active lens + category */}
       <section className="mx-auto mb-14 max-w-5xl px-4">
         <SectionHead n="05" title="Does quality matter?">
           Rule of 40 against year-to-date return. If the market were rewarding fundamental quality,
-          the cloud would tilt up and to the right — it only loosely does.
+          the cloud would tilt up and to the right — it only loosely does. The active lens highlights;
+          the rest fade.
         </SectionHead>
         <div className="mb-3 flex flex-wrap gap-x-5 gap-y-1 text-xs text-ink-soft">
-          {Object.entries(data.buckets).map(([id, b]) => (
+          {shownEntries.map(([id, b]) => (
             <span key={id} className="inline-flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: BUCKET_COLOR[id] }} />
               {b.label}
             </span>
           ))}
         </div>
-        <Scatter data={Object.fromEntries(Object.entries(data.buckets).map(([k, b]) => [k, b.members]))} />
+        <Scatter
+          lens={lens}
+          data={Object.fromEntries(shownEntries.map(([k, b]) => [k, b.members]))}
+        />
       </section>
 
       <Methodology data={data} count={all.length} />
@@ -120,9 +147,10 @@ function Methodology({ data, count }: { data: MarketData; count: number }) {
           <p>
             The recovery arc reconstructs each day’s cross-sectional median from the full price
             history. Rule of 40 = revenue growth % + operating margin % (trailing, from Yahoo
-            fundamentals), refreshed daily. Benchmarks: IGV (iShares Expanded Tech-Software ETF) and
-            the S&amp;P 500. A single extreme mover is flagged as an outlier so it doesn’t distort
-            the headline. Not investment advice.
+            fundamentals), refreshed daily. The lenses cross-reference it with price: “quality on
+            sale” is Rule of 40 ≥ 40 yet down on the year; “priced for hope” is under 25 yet up.
+            Benchmarks: IGV and the S&amp;P 500. A single extreme mover is flagged as an outlier.
+            Not investment advice.
           </p>
         </div>
         <p className="tnum mt-5 text-[11px] uppercase tracking-[0.12em] text-ink-faint">

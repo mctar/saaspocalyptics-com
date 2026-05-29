@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from 'react'
 import type { Company } from '../lib/types'
+import { matchesLens, type Lens } from '../lib/brief'
 
 const W = 920
 const H = 420
@@ -23,7 +24,13 @@ interface Point {
  * fundamental quality, points would trend up-and-to-the-right. The scatter
  * shows how loosely that holds during the recovery.
  */
-export default function Scatter({ data }: { data: Record<string, Company[]> }) {
+export default function Scatter({
+  data,
+  lens = 'all',
+}: {
+  data: Record<string, Company[]>
+  lens?: Lens
+}) {
   const svgRef = useRef<SVGSVGElement>(null)
   const [hover, setHover] = useState<number | null>(null)
 
@@ -106,19 +113,24 @@ export default function Scatter({ data }: { data: Record<string, Company[]> }) {
         <line x1={x(40)} x2={x(40)} y1={PAD.top} y2={H - PAD.bottom} stroke="#0D7680" strokeOpacity={0.5} strokeWidth={1} strokeDasharray="4 4" />
         <text x={x(40) + 4} y={PAD.top + 12} className="fill-teal" fontSize="10" fontWeight="600" fontFamily="'Libre Franklin',sans-serif">rule of 40</text>
 
-        {/* points */}
-        {points.map((p, i) => (
-          <circle
-            key={p.c.ticker}
-            cx={x(p.x)}
-            cy={y(p.y)}
-            r={hover === i ? 6 : 4}
-            fill={BUCKET_COLOR[p.bucket] ?? '#2B2A28'}
-            fillOpacity={hover == null || hover === i ? 0.85 : 0.3}
-            stroke="#FFF1E5"
-            strokeWidth={1}
-          />
-        ))}
+        {/* points — dimmed when they don't match the active lens */}
+        {points.map((p, i) => {
+          const inLens = matchesLens(p.c, lens)
+          let opacity = inLens ? 0.85 : 0.1
+          if (hover != null) opacity = hover === i ? 1 : opacity * 0.45
+          return (
+            <circle
+              key={p.c.ticker}
+              cx={x(p.x)}
+              cy={y(p.y)}
+              r={hover === i ? 6 : inLens ? 4 : 3}
+              fill={BUCKET_COLOR[p.bucket] ?? '#2B2A28'}
+              fillOpacity={opacity}
+              stroke="#FFF1E5"
+              strokeWidth={1}
+            />
+          )
+        })}
 
         {/* axis labels */}
         <text x={(PAD.left + W - PAD.right) / 2} y={H - 6} textAnchor="middle" className="fill-ink-soft" fontSize="11" fontWeight="600" fontFamily="'Libre Franklin',sans-serif">
