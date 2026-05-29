@@ -1,17 +1,12 @@
-import type { Company } from '../lib/types'
+import type { MarketData } from '../lib/types'
 import { pct, formatDate } from '../lib/format'
+import { allRows, buildDek, headlineMovers } from '../lib/brief'
 
-interface Props {
-  asOf: string
-  baselineDate: string
-  all: Company[]
-}
-
-export default function Hero({ asOf, baselineDate, all }: Props) {
-  const sorted = [...all].sort((a, b) => b.ytdPct - a.ytdPct)
-  const winner = sorted[0]
-  const loser = sorted[sorted.length - 1]
+export default function Hero({ data }: { data: MarketData }) {
+  const all = allRows(data)
+  const { winner, loser, winnerIsOutlier } = headlineMovers(all)
   const belowStart = all.filter((c) => c.ytdPct < 0).length
+  const dek = buildDek(data)
 
   return (
     <header className="mx-auto max-w-5xl px-4 pt-6">
@@ -22,13 +17,13 @@ export default function Hero({ asOf, baselineDate, all }: Props) {
           SaaSpocalyptics
         </span>
         <span className="text-right text-[11px] font-medium uppercase tracking-[0.14em] text-ink-soft sm:text-xs">
-          A market report · {formatDate(asOf)}
+          A market report · {formatDate(data.asOf)}
         </span>
       </div>
       <div className="h-px bg-rule" />
 
-      {/* Headline + standfirst, two-column editorial layout on desktop */}
-      <div className="grid grid-cols-1 gap-x-10 gap-y-4 py-10 sm:grid-cols-[1.55fr_1fr] sm:py-14">
+      {/* Headline + auto-generated standfirst */}
+      <div className="grid grid-cols-1 gap-x-10 gap-y-4 py-10 sm:grid-cols-[1.5fr_1fr] sm:py-12">
         <div className="fade-up">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-claret">
             The SaaSpocalypse · Year to date 2026
@@ -38,23 +33,22 @@ export default function Hero({ asOf, baselineDate, all }: Props) {
           </h1>
         </div>
         <div className="fade-up self-end border-l-0 sm:border-l sm:border-rule sm:pl-10" style={{ animationDelay: '0.12s' }}>
-          <p className="font-serif text-lg leading-relaxed text-ink sm:text-xl">
-            Investors stopped dumping software indiscriminately and started sorting winners from
-            losers — crudely.
-          </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-            A live ledger of the major SaaS names, the heavyweights the index won’t yet admit, and
-            the integrators in their orbit — measured from the first trading day of 2026.
-          </p>
+          <p className="font-serif text-lg leading-relaxed text-ink">{dek}</p>
         </div>
       </div>
 
       {/* "By the numbers" strip */}
       <div className="fade-up grid grid-cols-2 border-y-2 border-ink sm:grid-cols-4" style={{ animationDelay: '0.2s' }}>
-        <Stat label="Biggest winner" value={pct(winner.ytdPct)} sub={winner.name} tone="teal" border />
+        <Stat
+          label="Biggest winner"
+          value={pct(winner.ytdPct)}
+          sub={winnerIsOutlier ? `${winner.name} · an outlier` : winner.name}
+          tone="teal"
+          border
+        />
         <Stat label="Biggest loser" value={pct(loser.ytdPct)} sub={loser.name} tone="claret" border />
         <Stat label="Below 2026 start" value={`${belowStart}/${all.length}`} sub="still under water" border />
-        <Stat label="Baseline" value={formatDate(baselineDate)} sub="first 2026 close" />
+        <Stat label="Baseline" value={formatDate(data.baselineDate)} sub="first 2026 close" />
       </div>
     </header>
   )
@@ -75,15 +69,8 @@ function Stat({
 }) {
   const valueColor = tone === 'teal' ? 'text-teal' : tone === 'claret' ? 'text-claret' : 'text-ink'
   return (
-    <div
-      className={`px-4 py-4 ${border ? 'border-rule sm:border-r' : ''} ${
-        // 2x2 on mobile: give the top row a divider
-        'border-b border-rule sm:border-b-0'
-      }`}
-    >
-      <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-ink-faint">
-        {label}
-      </div>
+    <div className={`px-4 py-4 ${border ? 'border-rule sm:border-r' : ''} border-b border-rule sm:border-b-0`}>
+      <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-ink-faint">{label}</div>
       <div className={`tnum mt-1 font-serif text-2xl font-semibold leading-none sm:text-3xl ${valueColor}`}>
         {value}
       </div>

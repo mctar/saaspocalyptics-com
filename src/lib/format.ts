@@ -37,6 +37,11 @@ export function sortCompanies(rows: Company[], key: SortKey): Company[] {
       return out.sort((a, b) => a.ytdPct - b.ytdPct) // worst first — the carnage
     case 'fromLow':
       return out.sort((a, b) => b.fromLowPct - a.fromLowPct) // strongest recovery first
+    case 'rule40':
+      // highest rule-of-40 first; names lacking fundamentals sink to the bottom
+      return out.sort(
+        (a, b) => (b.fundamentals?.ruleOf40 ?? -Infinity) - (a.fundamentals?.ruleOf40 ?? -Infinity),
+      )
     case 'name':
       return out.sort((a, b) => a.name.localeCompare(b.name))
   }

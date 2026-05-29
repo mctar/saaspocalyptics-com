@@ -5,9 +5,10 @@ import Sparkline from './Sparkline'
 export default function CompanyRow({ c, rank }: { c: Company; rank: number }) {
   const up = c.ytdPct >= 0
   const ytdColor = up ? 'text-teal' : 'text-claret'
+  const f = c.fundamentals
 
   return (
-    <div className="group grid grid-cols-[1.4rem_minmax(0,1fr)_auto] items-center gap-3 border-b border-rule px-3 py-2.5 transition-colors last:border-b-0 odd:bg-paper2/40 hover:bg-card sm:grid-cols-[1.75rem_minmax(0,1fr)_6.5rem_5rem_auto] sm:gap-4 sm:px-4">
+    <div className="group grid grid-cols-[1.4rem_minmax(0,1fr)_auto] items-center gap-3 border-b border-rule px-3 py-2.5 transition-colors last:border-b-0 odd:bg-paper2/40 hover:bg-card sm:grid-cols-[1.75rem_minmax(0,1fr)_5.5rem_5.5rem_auto] sm:gap-4 sm:px-4">
       {/* rank */}
       <span className="font-sans text-xs tabular-nums text-ink-faint">
         {String(rank).padStart(2, '0')}
@@ -32,12 +33,20 @@ export default function CompanyRow({ c, rank }: { c: Company; rank: number }) {
         {pct(c.ytdPct)}
       </div>
 
-      {/* off-low — recovery, hidden on narrow screens */}
+      {/* fundamentals — rule-of-40 + revenue growth, hidden on narrow screens */}
       <div className="hidden text-right sm:block">
-        <div className="tnum font-sans text-sm font-medium text-ink-soft">
-          +{c.fromLowPct.toFixed(0)}%
-        </div>
-        <div className="text-[10px] uppercase tracking-[0.14em] text-ink-faint">off low</div>
+        {f?.ruleOf40 != null ? (
+          <>
+            <div className={`tnum font-sans text-sm font-semibold ${rule40Color(f.ruleOf40)}`}>
+              {f.ruleOf40.toFixed(0)}
+            </div>
+            <div className="text-[10px] uppercase tracking-[0.14em] text-ink-faint">
+              R40{f.revenueGrowthPct != null ? ` · ${f.revenueGrowthPct.toFixed(0)}% grw` : ''}
+            </div>
+          </>
+        ) : (
+          <div className="tnum text-sm text-ink-faint">—</div>
+        )}
       </div>
 
       {/* sparkline */}
@@ -51,4 +60,11 @@ export default function CompanyRow({ c, rank }: { c: Company; rank: number }) {
       </div>
     </div>
   )
+}
+
+// Rule of 40: ≥40 healthy (teal), 25–40 middling (ink), <25 weak (claret).
+function rule40Color(v: number): string {
+  if (v >= 40) return 'text-teal'
+  if (v >= 25) return 'text-ink'
+  return 'text-claret'
 }

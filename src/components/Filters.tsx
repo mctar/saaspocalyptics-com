@@ -10,6 +10,7 @@ interface Props {
 const SORTS: { key: SortKey; label: string }[] = [
   { key: 'ytd', label: 'YTD' },
   { key: 'fromLow', label: 'Off low' },
+  { key: 'rule40', label: 'Rule of 40' },
   { key: 'name', label: 'A–Z' },
 ]
 
