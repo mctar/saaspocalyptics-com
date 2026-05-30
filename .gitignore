@@ -6,3 +6,4 @@ __pycache__/
 *.pyc
 .DS_Store
 data/fundamentals_cache.json
+data/prev_market.json
