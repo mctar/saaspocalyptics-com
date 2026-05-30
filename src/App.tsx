@@ -89,6 +89,7 @@ export default function App() {
             sortKey={sortKey}
             query={query}
             lens={lens}
+            aiBlurb={data.ai?.buckets?.[id]}
           />
         ))}
       </main>
@@ -153,6 +154,14 @@ function Methodology({ data, count }: { data: MarketData; count: number }) {
             Not investment advice.
           </p>
         </div>
+        {data.ai?.model && (
+          <p className="mt-4 max-w-3xl text-xs leading-relaxed text-ink-soft">
+            The “today’s read”, the change note, and the category lines are written each run by a
+            local <span className="font-semibold">{data.ai.model}</span> model on our own hardware,
+            strictly from the figures above — it is given no news and told to invent nothing. If it
+            is unavailable, the page falls back to computed text.
+          </p>
+        )}
         <p className="tnum mt-5 text-[11px] uppercase tracking-[0.12em] text-ink-faint">
           Generated {data.generatedAt} · {count} names tracked · saaspocalyptics.com
         </p>

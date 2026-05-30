@@ -10,9 +10,10 @@ interface Props {
   query: string
   lens: Lens
   index: number
+  aiBlurb?: string
 }
 
-export default function BucketSection({ bucket, sortKey, query, lens, index }: Props) {
+export default function BucketSection({ bucket, sortKey, query, lens, index, aiBlurb }: Props) {
   const filtered = bucket.members.filter((c) => {
     if (!matchesLens(c, lens)) return false
     if (!query) return true
@@ -37,7 +38,7 @@ export default function BucketSection({ bucket, sortKey, query, lens, index }: P
             <h2 className="font-serif text-2xl font-bold leading-none tracking-tight text-ink sm:text-3xl">
               {bucket.label}
             </h2>
-            <p className="mt-1.5 max-w-xl text-sm leading-snug text-ink-soft">{bucket.blurb}</p>
+            <p className="mt-1.5 max-w-xl text-sm leading-snug text-ink-soft">{aiBlurb ?? bucket.blurb}</p>
           </div>
         </div>
         <div className="flex shrink-0 gap-6 border-l border-rule pl-6">

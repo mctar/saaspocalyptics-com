@@ -6,7 +6,9 @@ export default function Hero({ data }: { data: MarketData }) {
   const all = allRows(data)
   const { winner, loser, winnerIsOutlier } = headlineMovers(all)
   const belowStart = all.filter((c) => c.ytdPct < 0).length
-  const dek = buildDek(data)
+  const aiRead = data.ai?.todaysRead
+  const dek = aiRead ?? buildDek(data)
+  const sinceLast = data.ai?.sinceLastRun
 
   return (
     <header className="mx-auto max-w-5xl px-4 pt-6">
@@ -33,7 +35,18 @@ export default function Hero({ data }: { data: MarketData }) {
           </h1>
         </div>
         <div className="fade-up self-end border-l-0 sm:border-l sm:border-rule sm:pl-10" style={{ animationDelay: '0.12s' }}>
+          {aiRead && (
+            <p className="mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-ink-faint">
+              Today’s read
+            </p>
+          )}
           <p className="font-serif text-lg leading-relaxed text-ink">{dek}</p>
+          {sinceLast && (
+            <p className="mt-3 border-t border-rule pt-3 text-sm leading-snug text-ink-soft">
+              <span className="font-semibold text-claret">Since last update — </span>
+              {sinceLast}
+            </p>
+          )}
         </div>
       </div>
 

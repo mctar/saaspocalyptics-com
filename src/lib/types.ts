@@ -39,6 +39,14 @@ export interface Benchmark {
   name: string
 }
 
+export interface AiBlock {
+  todaysRead?: string
+  sinceLastRun?: string
+  buckets?: Record<string, string>
+  model?: string
+  generatedAt?: string
+}
+
 export interface MarketData {
   asOf: string
   generatedAt: string
@@ -46,6 +54,7 @@ export interface MarketData {
   buckets: Record<string, Bucket>
   benchmarks?: Benchmark[]
   history?: HistoryPoint[]
+  ai?: AiBlock
 }
 
 export type SortKey = 'ytd' | 'fromLow' | 'rule40' | 'name'

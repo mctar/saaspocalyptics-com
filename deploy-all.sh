@@ -63,6 +63,10 @@ main() {
     # publishes gutted data to either site.
     "$COM/.venv/bin/python" "$COM/data/fetch.py"
 
+    # Best-effort: add the Gemma-written `ai` block (today's read, since-last-run,
+    # per-bucket lines). Never fatal — annotate.py always exits 0.
+    "$COM/.venv/bin/python" "$COM/data/annotate.py" || true
+
     # Same data feeds btrbot (it ignores the extra keys).
     cp "$COM/$DATA_REL" "$BTR/$DATA_REL"
 
