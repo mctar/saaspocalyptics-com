@@ -136,14 +136,13 @@ Return ONLY a JSON object with these keys:
   characterising that category from its stats.
 
 DATA:
-%s
 """
 
 
 def call_gemma(facts: dict) -> dict | None:
     payload = {
         "model": MODEL,
-        "prompt": PROMPT % json.dumps(facts, ensure_ascii=False),
+        "prompt": PROMPT + json.dumps(facts, ensure_ascii=False),
         "stream": False,
         "format": "json",
         "keep_alive": "10m",
