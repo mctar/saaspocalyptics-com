@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-05-30",
-  "generatedAt": "2026-05-30T21:02:14+00:00",
+  "asOf": "2026-05-31",
+  "generatedAt": "2026-05-31T06:02:38+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -650,9 +650,9 @@
             231.31
           ],
           "fundamentals": {
-            "revenueGrowthPct": 19.4,
-            "operatingMarginPct": 27.2,
-            "ruleOf40": 46.6,
+            "revenueGrowthPct": 18.4,
+            "operatingMarginPct": 29.5,
+            "ruleOf40": 47.9,
             "marketCap": 48840007680
           }
         },
@@ -1954,9 +1954,9 @@
             11.72
           ],
           "fundamentals": {
-            "revenueGrowthPct": 13.6,
-            "operatingMarginPct": 16.7,
-            "ruleOf40": 30.3,
+            "revenueGrowthPct": 17.3,
+            "operatingMarginPct": 7.3,
+            "ruleOf40": 24.6,
             "marketCap": 6099596800
           }
         },
@@ -2131,9 +2131,9 @@
             335.55
           ],
           "fundamentals": {
-            "revenueGrowthPct": 26.7,
-            "operatingMarginPct": 0.0,
-            "ruleOf40": 26.7,
+            "revenueGrowthPct": 25.2,
+            "operatingMarginPct": -3.6,
+            "ruleOf40": 21.6,
             "marketCap": 27011751936
           }
         },
@@ -2249,9 +2249,9 @@
             64.7
           ],
           "fundamentals": {
-            "revenueGrowthPct": 17.7,
-            "operatingMarginPct": 0.2,
-            "ruleOf40": 17.9,
+            "revenueGrowthPct": 16.0,
+            "operatingMarginPct": -3.5,
+            "ruleOf40": 12.5,
             "marketCap": 6696515072
           }
         },
@@ -2662,9 +2662,9 @@
             123.27
           ],
           "fundamentals": {
-            "revenueGrowthPct": 11.6,
-            "operatingMarginPct": 6.6,
-            "ruleOf40": 18.2,
+            "revenueGrowthPct": 11.2,
+            "operatingMarginPct": 7.3,
+            "ruleOf40": 18.5,
             "marketCap": 21614956544
           }
         },
@@ -3100,9 +3100,9 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3104.6008,
+            3104.6011,
             3166.7144,
-            3093.5544,
+            3093.5542,
             3060.7986,
             3108.2549,
             3157.2903,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -4.14,
           "fromLowPct": 38.74,
           "sparkline": [
-            287.7297,
+            287.7298,
             292.8921,
             300.2852,
             305.033,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 18.56% year-to-date, trailing the S&P 500's 10.52% gain. Recovery from the 14 May trough median of -28.89% is ongoing. Ten stocks are classified as quality on sale, while seven are priced for hope.",
+    "todaysRead": "The cohort median is down 18.56% year-to-date, trailing the S&P 500's 10.52% gain. Recovery from the 14 May trough median of -28.89% is underway, though breadth is limited with only 16 of 57 stocks above water. Ten stocks are classified as quality on sale, while seven are priced for hope.",
     "buckets": {
-      "sp500_software": "Median down 7.8% with 18 of 27 stocks in red.",
-      "big_saas_outside": "Median down 14.2% with 13 of 19 stocks in red.",
-      "gsi": "Median down 27.9% with 10 of 11 stocks in red."
+      "sp500_software": "Median down 7.8% with Datadog leading gains at 84.91%.",
+      "big_saas_outside": "Median down 14.2% with DigitalOcean up 218.46%.",
+      "gsi": "Median down 27.9% with EPAM Systems down 48.89%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-05-30T21:02:14+00:00"
+    "generatedAt": "2026-05-31T06:02:38+00:00"
   }
 }
