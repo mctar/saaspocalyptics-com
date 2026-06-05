@@ -165,6 +165,15 @@ function Methodology({ data, count }: { data: MarketData; count: number }) {
         <p className="tnum mt-5 text-[11px] uppercase tracking-[0.12em] text-ink-faint">
           Generated {data.generatedAt} · {count} names tracked · saaspocalyptics.com
         </p>
+        <p className="mt-2 text-[11px] uppercase tracking-[0.12em] text-ink-faint">
+          A poka-yoke build by{' '}
+          <a
+            href="https://gervilabs.com"
+            className="underline underline-offset-2 hover:text-ink"
+          >
+            Gervi Labs
+          </a>
+        </p>
       </div>
     </footer>
   )
