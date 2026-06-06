@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-06",
-  "generatedAt": "2026-06-06T06:01:38+00:00",
+  "generatedAt": "2026-06-06T14:04:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -847,7 +847,7 @@
             470.8432,
             481.3265,
             477.1551,
-            457.3433,
+            457.3434,
             452.5049,
             463.8842,
             478.4493,
@@ -910,7 +910,7 @@
             146.679,
             151.4629,
             141.4178,
-            134.0181,
+            134.0182,
             129.1348,
             130.2587,
             118.0653,
@@ -2862,7 +2862,7 @@
           "fromHighPct": -37.88,
           "fromLowPct": 16.57,
           "sparkline": [
-            80.3023,
+            80.3022,
             83.0982,
             84.2344,
             85.6571,
@@ -3041,7 +3041,7 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3104.6008,
+            3104.6011,
             3166.7144,
             3163.8018,
             3060.7986,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -13.48,
           "fromLowPct": 32.71,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
             300.2852,
             305.033,
@@ -4474,14 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 19.8% year-to-date, trailing the S&P 500's 7.66% gain. Recovery from the May 14 trough of -28.89% remains partial. Ten stocks are classified as quality on sale, while six are priced for hope.",
-    "sinceLastRun": "Tata Consultancy Services fell 1.4%.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.8%. Recovery from the May 14 trough is evident, though a significant gap persists between software stocks and the S&P 500's 7.66% gain. Ten stocks are classified as quality on sale, while six are priced for hope.",
     "buckets": {
-      "sp500_software": "Median down 19.3%, with Fortinet leading gains at 85.77%.",
-      "big_saas_outside": "Median down 14.0%, led by DigitalOcean's outlier gain of 246.89%.",
-      "gsi": "Median down 29.7% with all eleven stocks in the red."
+      "sp500_software": "Median YTD return of -19.3%, with Fortinet leading gains.",
+      "big_saas_outside": "Median YTD return of -14.0%, led by DigitalOcean's 246.89% rise.",
+      "gsi": "Median YTD return of -29.7%, with IBM as the top performer at -1.0%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-06T06:01:38+00:00"
+    "generatedAt": "2026-06-06T14:04:13+00:00"
   }
 }
