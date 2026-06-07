@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-07",
-  "generatedAt": "2026-06-07T06:03:37+00:00",
+  "generatedAt": "2026-06-07T14:03:14+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -847,7 +847,7 @@
             470.8432,
             481.3265,
             477.1551,
-            457.3434,
+            457.3433,
             452.5049,
             463.8842,
             478.4493,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.8%. Recovery from the May 14 trough is ongoing, though a significant gap persists between software stocks and the S&P 500's 7.66% gain. Ten stocks are classified as quality on sale, while six are priced for hope.",
+    "todaysRead": "The cohort remains largely in the red, with 17 of 57 stocks above water. The median YTD return is -19.8%, trailing the S&P 500's 7.66% gain. Recovery from the May 14 trough has been modest, as 10 stocks meet the Rule of 40 threshold while remaining down YTD.",
     "buckets": {
-      "sp500_software": "Median YTD return of -19.3%, with Fortinet leading gains.",
-      "big_saas_outside": "Median YTD return of -14.0%, led by DigitalOcean's 246.89% rise.",
-      "gsi": "The weakest cohort, with a median YTD return of -29.7%."
+      "sp500_software": "Median YTD return -19.3%, with Fortinet leading gains at 85.77%.",
+      "big_saas_outside": "Median YTD return -14.0%, led by DigitalOcean's outlier gain of 246.89%.",
+      "gsi": "Median YtoD return -29.7%, with IBM the top performer at -1.0%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-07T06:03:37+00:00"
+    "generatedAt": "2026-06-07T14:03:14+00:00"
   }
 }
