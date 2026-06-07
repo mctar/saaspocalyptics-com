@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-07",
-  "generatedAt": "2026-06-07T14:03:14+00:00",
+  "generatedAt": "2026-06-07T21:04:14+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -910,7 +910,7 @@
             146.679,
             151.4629,
             141.4178,
-            134.0182,
+            134.0181,
             129.1348,
             130.2587,
             118.0653,
@@ -3041,7 +3041,7 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3104.6011,
+            3104.6008,
             3166.7144,
             3163.8018,
             3060.7986,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red, with 17 of 57 stocks above water. The median YTD return is -19.8%, trailing the S&P 500's 7.66% gain. Recovery from the May 14 trough has been modest, as 10 stocks meet the Rule of 40 threshold while remaining down YTD.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.8%. Recovery from the May 14 trough has been modest, while the gap to the S&P 500's 7.66% gain is significant. Ten stocks are classified as quality on sale, while six are priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return -19.3%, with Fortinet leading gains at 85.77%.",
-      "big_saas_outside": "Median YTD return -14.0%, led by DigitalOcean's outlier gain of 246.89%.",
-      "gsi": "Median YtoD return -29.7%, with IBM the top performer at -1.0%."
+      "sp500_software": "Median YTD return of -19.3%, with Fortinet leading gains.",
+      "big_saas_outside": "Median YTD return of -14.0%, led by DigitalOcean's outlier gain.",
+      "gsi": "Worst performing bucket with a median YTD return of -29.7%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-07T14:03:14+00:00"
+    "generatedAt": "2026-06-07T21:04:14+00:00"
   }
 }
