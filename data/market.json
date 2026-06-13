@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-13",
-  "generatedAt": "2026-06-13T06:05:39+00:00",
+  "generatedAt": "2026-06-13T14:03:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -374,7 +374,7 @@
           "sparkline": [
             252.336,
             264.7727,
-            258.0868,
+            258.0867,
             232.3477,
             218.9559,
             226.8955,
@@ -393,7 +393,7 @@
             193.3561,
             194.1919,
             184.7002,
-            185.7249,
+            185.725,
             184.0932,
             175.4771,
             172.3751,
@@ -2803,7 +2803,7 @@
           "fromHighPct": -39.09,
           "fromLowPct": 14.29,
           "sparkline": [
-            80.3023,
+            80.3022,
             83.0982,
             84.2047,
             83.7997,
@@ -3041,7 +3041,7 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3804,
+            3108.3801,
             3166.7144,
             3163.8018,
             3080.8269,
@@ -4474,14 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort is largely in the red with a median YTD return of -25.46%. Recovery from the May 14 trough has been modest, as the gap to the S&P 500's 8.35% gain remains wide. Twelve stocks are classified as quality on sale, while six are priced for hope.",
-    "sinceLastRun": "Tata Consultancy Services rose 0.8%.",
+    "todaysRead": "The cohort remains largely in the red, with 14 of 57 stocks above water. The median YTD return is -25.46%, trailing the S&P 500's 8.35% gain. Recovery from the May 14 trough has been modest, as 12 stocks meet the Rule of 40 threshold while remaining down YTD.",
     "buckets": {
-      "sp500_software": "Median YTD return of -22.7%, with 19 of 27 stocks in the red.",
-      "big_saas_outside": "Median YTD return of -16.8%, with 13 of 19 stocks in the red.",
-      "gsi": "All 11 stocks are in the red with a median YTD return of -30.9%."
+      "sp500_software": "Median return -22.7%, with Fortinet leading and Intuit lagging.",
+      "big_saas_outside": "Median return -16.8%, featuring DigitalOcean's 248.05% gain.",
+      "gsi": "All 11 stocks in red, median return -30.9%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-13T06:05:39+00:00"
+    "generatedAt": "2026-06-13T14:03:13+00:00"
   }
 }
