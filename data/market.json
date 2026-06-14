@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-06-13",
-  "generatedAt": "2026-06-13T21:02:13+00:00",
+  "asOf": "2026-06-14",
+  "generatedAt": "2026-06-14T06:05:37+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -374,7 +374,7 @@
           "sparkline": [
             252.336,
             264.7727,
-            258.0867,
+            258.0868,
             232.3477,
             218.9559,
             226.8955,
@@ -393,7 +393,7 @@
             193.3561,
             194.1919,
             184.7002,
-            185.725,
+            185.7249,
             184.0932,
             175.4771,
             172.3751,
@@ -855,7 +855,7 @@
             391.9247,
             411.4377,
             400.0584,
-            397.8284,
+            397.8283,
             383.6391,
             400.8518,
             403.057,
@@ -3041,7 +3041,7 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3801,
+            3108.3804,
             3166.7144,
             3163.8018,
             3080.8269,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -17.31,
           "fromLowPct": 26.84,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
             308.1423,
             294.0963,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red, with 14 of 57 stocks above water. The median YTD return is -25.46%, trailing the S&P 500's 8.35% gain. Recovery from the May 14 trough has been modest, as 12 stocks meet the Rule of 40 threshold while remaining down YTD.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -25.46% and 14 of 57 names above water. Recovery from the May 14 trough is modest, as the group continues to hold a significant gap to the S&P 500's 8.35% gain. The lens analysis identifies 12 stocks meeting the 'quality on sale' criteria and 6 priced for hope.",
     "buckets": {
-      "sp500_software": "Median return -22.7%, with Fortinet leading and Intuit lagging.",
-      "big_saas_outside": "Median return -16.8%, featuring DigitalOcean's 248.05% gain.",
-      "gsi": "All 11 stocks in red, median return -30.9%."
+      "sp500_software": "Median YTD return of -22.7%, with Fortinet leading gains at 87.85%.",
+      "big_saas_outside": "Median YTD return of -16.8%, with DigitalOcean up 248.05%.",
+      "gsi": "All 11 names in red, median YTD return of -30.9%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-13T21:02:13+00:00"
+    "generatedAt": "2026-06-14T06:05:37+00:00"
   }
 }
