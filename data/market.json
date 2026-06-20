@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-20",
-  "generatedAt": "2026-06-20T06:01:39+00:00",
+  "generatedAt": "2026-06-20T14:04:14+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -3218,8 +3218,8 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3804,
-            3093.5542,
+            3108.3801,
+            3093.5544,
             3121.2786,
             3108.2549,
             3157.2903,
@@ -4474,14 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red with a median YTD return of -26.59% against an S&P 500 gain of 8.19%. Recovery from the May 14 trough is modest, as only 13 of 57 stocks are above water. Fundamental lens filters identify 12 stocks as quality on sale and 6 as priced for hope.",
-    "sinceLastRun": "Infosys (NSE) fell 4.8% and Tata Consultancy Services declined 2.5%.",
+    "todaysRead": "The cohort remains largely in the negative, with a median YTD return of -26.59% and 13 of 57 names above water. Recovery from the May 14 trough is modest, as the gap to the S&P 500's 8.19% gain remains wide. Twelve stocks are classified as quality on sale, while six are priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return of -23.5%, with 19 of 27 stocks in red.",
-      "big_saas_outside": "Median YTD return of -19.3%, with 14 of 19 stocks in red.",
-      "gsi": "All 11 Global System Integrators are in the red, median YTD -34.4%."
+      "sp500_software": "Median YTD return of -23.5%, with 19 of 27 names in the red.",
+      "big_saas_outside": "Median YTD return of -19.3%, with 14 of 19 names in the red.",
+      "gsi": "Median YTD return of -34.4%, all 11 names in the red."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-20T06:01:39+00:00"
+    "generatedAt": "2026-06-20T14:04:14+00:00"
   }
 }
