@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-20",
-  "generatedAt": "2026-06-20T14:04:14+00:00",
+  "generatedAt": "2026-06-20T21:01:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -1144,7 +1144,7 @@
             247.0811,
             247.6376,
             251.1651,
-            249.9429,
+            249.9428,
             242.6594,
             249.4063,
             241.0795,
@@ -2862,7 +2862,7 @@
           "fromHighPct": -48.98,
           "fromLowPct": 0.0,
           "sparkline": [
-            80.3023,
+            80.3022,
             83.0982,
             84.2047,
             83.7997,
@@ -2872,7 +2872,7 @@
             73.6038,
             76.1528,
             70.057,
-            65.7495,
+            65.7494,
             64.5349,
             60.6325,
             63.9789,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -24.34,
           "fromLowPct": 16.05,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
             308.1423,
             294.0963,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the negative, with a median YTD return of -26.59% and 13 of 57 names above water. Recovery from the May 14 trough is modest, as the gap to the S&P 500's 8.19% gain remains wide. Twelve stocks are classified as quality on sale, while six are priced for hope.",
+    "todaysRead": "The cohort remains largely in the negative, with a median YTD return of -26.59% and 13 of 57 names above water. Recovery from the May 14 trough is modest, as the gap to the S&P 500's 8.19% gain remains wide. Fifteen names pass the Rule of 40, with 12 identified as quality on sale.",
     "buckets": {
-      "sp500_software": "Median YTD return of -23.5%, with 19 of 27 names in the red.",
-      "big_saas_outside": "Median YTD return of -19.3%, with 14 of 19 names in the red.",
-      "gsi": "Median YTD return of -34.4%, all 11 names in the red."
+      "sp500_software": "Median YTD return -23.5%, with Fortinet leading at 85.84%.",
+      "big_saas_outside": "Median YTD return -19.3%, with DigitalOcean up 253.83%.",
+      "gsi": "uma own median YTD return of -34.4% and EPAM Systems down 61.77%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-20T14:04:14+00:00"
+    "generatedAt": "2026-06-20T21:01:13+00:00"
   }
 }
