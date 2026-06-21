@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-21",
-  "generatedAt": "2026-06-21T14:02:14+00:00",
+  "generatedAt": "2026-06-21T21:03:14+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -374,7 +374,7 @@
           "sparkline": [
             252.336,
             264.7727,
-            258.0867,
+            258.0868,
             232.3477,
             220.4582,
             228.2386,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -24.34,
           "fromLowPct": 16.05,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
             308.1423,
             294.0963,
@@ -4474,14 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The SaaS cohort remains largely in the red, with a median YTD return of -26.59% and only 13 of 57 names listed above water. Recovery from the May 14 trough is modest, as the group continues to actually underperform the S&P 500's 9.36% gain. A lens analysis reveals 12 stocks meeting the 'quality on sale' criteria and 6 priced for hope.",
-    "sinceLastRun": "Genpact fell 4.5% while JFrog rose 2.3%.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -26.59% and 13 of 57 names above water. Recovery from the May 14 trough is modest, as the group continues to znacsingly underperform the S&P 500's 9.36% gain. The lens picture shows 15 stocks passing the Rule of 40, with 12 identified as quality on sale.",
     "buckets": {
-      "sp500_software": "Median YTD return of -23.5%, with Fortinet leading gains at 85.84%.",
-      "big_saas_outside": "Median YTD return of -18.7%, with DigitalOcean up 253.83%.",
-      "gsi": "All 11 names in red, median YTD return of -37.8%."
+      "sp500_software": "Median YTD return -23.5%, with Fortinet leading gains at 85.84%.",
+      "big_saas_outside": "Median YTD return -18.7%, with DigitalOcean up 253.83%.",
+      "gsi": "Median YTD return -37.8%, with EPAM Systems down 61.77%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-21T14:02:14+00:00"
+    "generatedAt": "2026-06-21T21:03:14+00:00"
   }
 }
