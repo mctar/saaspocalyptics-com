@@ -1,6 +1,6 @@
 {
   "asOf": "2026-06-27",
-  "generatedAt": "2026-06-27T14:02:14+00:00",
+  "generatedAt": "2026-06-27T21:03:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -1144,7 +1144,7 @@
             247.0811,
             247.6376,
             251.1651,
-            249.9429,
+            249.9428,
             242.6594,
             242.0235,
             222.7466,
@@ -3218,8 +3218,8 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3804,
-            3093.5542,
+            3108.3801,
+            3093.5544,
             3121.2786,
             3108.2549,
             3157.2903,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -21.55,
           "fromLowPct": 20.33,
           "sparkline": [
-            287.7297,
+            287.7298,
             292.8921,
             308.1423,
             294.0963,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red with a median YTD return of -26.41% and 13 of 57 names above water. Recovery from the May 14 trough is modest, as the group continues to lag significantly behind the S&P 500's 7.28% gain. Fundamental lens analysis shows 15 stocks pass the Rule of 40, with 12 identified as quality on sale.",
+    "todaysRead": "The cohort median is down 26.41% year-to-date, trailing the S&P 500's 7.28% gain. Recovery from the May 14 trough has been modest, with 13 of 57 stocks above water. Breadth remains narrow, with 15 stocks passing the Rule of 40.",
     "buckets": {
-      "sp500_software": "Median YTD return -25.1%, with Fortinet leading gains at 92.51%.",
-      "big_saas_outside": "Median YTD return -24.0%, with DigitalOcean up 196.79%.",
-      "gsi": "All 11 names in red, median YTD return -39.1%."
+      "sp500_software": "Median down 25.1%, with Fortinet leading gains at 92.51%.",
+      "big_saas_outside": "Median down 24.0%, led by DigitalOcean's outlier gain of 196.79%.",
+      "gsi": "All 11 stocks in red, median down 39.1%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-06-27T14:02:14+00:00"
+    "generatedAt": "2026-06-27T21:03:13+00:00"
   }
 }
