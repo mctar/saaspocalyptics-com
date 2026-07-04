@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-07-03",
-  "generatedAt": "2026-07-03T21:03:13+00:00",
+  "asOf": "2026-07-04",
+  "generatedAt": "2026-07-04T06:01:38+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -1027,7 +1027,7 @@
             147.604,
             151.7414,
             141.4178,
-            134.0181,
+            134.0182,
             129.1348,
             128.7171,
             124.6294,
@@ -1147,7 +1147,7 @@
             248.045,
             242.6793,
             239.44,
-            218.474,
+            218.4739,
             217.6393,
             216.0453,
             212.8837,
@@ -1721,7 +1721,7 @@
             "revenueGrowthPct": 24.5,
             "operatingMarginPct": 5.6,
             "ruleOf40": 30.1,
-            "marketCap": 4112260096
+            "marketCap": 3422686720
           }
         },
         {
@@ -2075,7 +2075,7 @@
             "revenueGrowthPct": -4.1,
             "operatingMarginPct": 23.4,
             "ruleOf40": 19.3,
-            "marketCap": 24532262912
+            "marketCap": 24302315520
           }
         },
         {
@@ -3092,11 +3092,11 @@
           "name": "Infosys (NSE)",
           "currency": "INR",
           "baseline": 1595.28,
-          "last": 1040.9,
-          "lastDate": "2026-07-02",
-          "ytdPct": -34.75,
-          "fromHighPct": -37.07,
-          "fromLowPct": 5.64,
+          "last": 1047.2,
+          "lastDate": "2026-07-03",
+          "ytdPct": -34.36,
+          "fromHighPct": -36.69,
+          "fromLowPct": 6.28,
           "sparkline": [
             1595.2792,
             1578.0519,
@@ -3106,44 +3106,44 @@
             1635.4108,
             1624.3501,
             1620.9242,
-            1475.178,
+            1465.4877,
             1356.6431,
             1361.7329,
             1324.5377,
             1262.7743,
-            1261.5997,
+            1279.7079,
             1287.147,
             1238.9891,
             1206.7859,
             1229.2987,
-            1252.0073,
-            1248.6793,
+            1242.8064,
+            1273.2478,
             1317.686,
             1249.7561,
-            1290.7686,
-            1241.7297,
-            1145.5118,
+            1284.7977,
+            1214.3228,
+            1127.6973,
             1156.7683,
             1142.4774,
-            1152.0699,
-            1071.8068,
-            1171.5485,
-            1149.6228,
+            1116.1473,
+            1095.2985,
+            1168.4161,
+            1143.75,
             1135.3322,
-            1243.8832,
-            1172.1357,
-            1145.3,
-            1134.9,
-            1127.5,
-            1056.6,
-            1036.7,
-            1040.9
+            1196.704,
+            1162.4453,
+            1114.6,
+            1143.6,
+            1051.4,
+            1041.2,
+            1000.4,
+            1047.2
           ],
           "fundamentals": {
             "revenueGrowthPct": 6.6,
             "operatingMarginPct": 20.9,
             "ruleOf40": 27.5,
-            "marketCap": 4260281974784
+            "marketCap": 4240037117952
           }
         },
         {
@@ -3151,58 +3151,58 @@
           "name": "Tata Consultancy Services",
           "currency": "INR",
           "baseline": 3127.37,
-          "last": 2068.1,
-          "lastDate": "2026-07-02",
-          "ytdPct": -33.87,
-          "fromHighPct": -35.24,
-          "fromLowPct": 4.31,
+          "last": 2093.5,
+          "lastDate": "2026-07-03",
+          "ytdPct": -33.06,
+          "fromHighPct": -34.44,
+          "fromLowPct": 5.59,
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3804,
-            3093.5542,
+            3108.3801,
+            3093.5544,
             3060.7986,
             3120.1931,
             3102.3352,
             3182.1531,
-            2902.2483,
+            2908.76,
             2713.3101,
             2681.0474,
             2650.2649,
             2594.1262,
-            2578.5374,
+            2553.1814,
             2493.5891,
             2409.7263,
             2359.7046,
             2358.6194,
-            2345.5959,
-            2375.9839,
+            2357.8301,
+            2417.9153,
             2524.9639,
             2439.5225,
-            2546.9656,
-            2504.5408,
-            2414.8569,
+            2545.0911,
+            2488.0642,
+            2411.9956,
             2440.8049,
             2402.8198,
-            2360.8884,
-            2215.9539,
-            2295.969,
-            2286.3,
+            2269.5273,
+            2233.7129,
+            2296.2646,
+            2308.2,
             2284.2,
-            2446.8999,
-            2198.8999,
-            2153.8999,
-            2162.0,
-            2203.3,
-            2109.0,
-            2097.8999,
-            2068.1001
+            2241.7,
+            2151.3999,
+            2135.6001,
+            2199.0,
+            2125.0,
+            2094.7,
+            2031.5,
+            2093.5
           ],
           "fundamentals": {
             "revenueGrowthPct": 9.6,
             "operatingMarginPct": 25.3,
             "ruleOf40": 34.9,
-            "marketCap": 7613541515264
+            "marketCap": 7574465806336
           }
         },
         {
@@ -3261,7 +3261,7 @@
             "revenueGrowthPct": 3.7,
             "operatingMarginPct": 12.0,
             "ruleOf40": 15.7,
-            "marketCap": 15198445568
+            "marketCap": 15254884352
           }
         },
         {
@@ -3334,7 +3334,7 @@
           "fromHighPct": -12.06,
           "fromLowPct": 34.89,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
             308.1423,
             301.7165,
@@ -4474,14 +4474,14 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 22.66% year-to-date, trailing the S&P 500's 9.11% gain. Recovery from the June 22 trough median of -28.69% remains limited. Eleven stocks are classified as quality on sale, while seven are priced for hope.",
-    "sinceLastRun": "Tata Consultancy Services fell 0.8%, Infosys (NSE) declined 0.4% and Dassault Systèmes dropped 0.3%.",
+    "todaysRead": "The cohort median is down 22.66% year-to-date, trailing the S&P 500's 9.11% gain. Recovery from the June 22 trough of -28.69% remains limited. Eleven stocks are classified as quality on sale, while seven are priced for hope.",
+    "sinceLastRun": "Tata Consultancy Services and Infosys (NSE) recorded the largest movements in price action.",
     "buckets": {
-      "sp500_software": "Median down 22.7%, with Fortinet leading gains at 100.63%.",
-      "big_saas_outside": "Median down 11.4%, led by DigitalOcean's 165.73% rise.",
-      "gsi": "Median down 35.3%, with IBM as the top winner at 0.62%."
+      "sp500_software": "Median down 22.7%, with 18 of 27 stocks in red.",
+      "big_saas_outside": "Median down 11.4%, with 12 of 19 stocks in red.",
+      "gsi": "Median down 35.3%, with 10 of 11 stocks in red."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-03T21:03:13+00:00"
+    "generatedAt": "2026-07-04T06:01:38+00:00"
   }
 }
