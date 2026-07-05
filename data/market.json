@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-05",
-  "generatedAt": "2026-07-05T14:03:14+00:00",
+  "generatedAt": "2026-07-05T21:02:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -1027,7 +1027,7 @@
             147.604,
             151.7414,
             141.4178,
-            134.0181,
+            134.0182,
             129.1348,
             128.7171,
             124.6294,
@@ -3159,8 +3159,8 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3801,
-            3093.5544,
+            3108.3804,
+            3093.5542,
             3060.7986,
             3120.1931,
             3102.3352,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 22.66% year-to-date, trailing the S&P 500's 9.11% gain. Recovery from the June 22 trough of -28.69% remains limited. Eleven stocks are classified as quality on sale, while seven are priced for hope.",
+    "todaysRead": "The cohort is largely in the red with a median YTD return of -22.66%. Recovery from the June 22 trough has begun, though a significant gap remains relative to the S&P 500's 9.11% gain. Fifteen stocks pass the Rule of 40, while eleven are classified as quality on sale.",
     "buckets": {
-      "sp500_software": "Median YTD return of -22.7%, with 18 of 27 names trailing",
-      "big_saas_outside": "Median YTD return of -11.4%, with 12 of 19 names in red",
-      "gsi": "Median YTD return of -35.3%, with 10 of 11 names declining"
+      "sp500_software": "Median YTD return -22.7%, with 18 of 27 stocks in red.",
+      "big_saas_outside": "Median YTD return -11.4%, with 12 of 19 stocks in red.",
+      "gsi": "Median Ytd return -35.3%, with 10 of 11 stocks in red."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-05T14:03:14+00:00"
+    "generatedAt": "2026-07-05T21:02:13+00:00"
   }
 }
