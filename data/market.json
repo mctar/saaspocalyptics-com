@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-05",
-  "generatedAt": "2026-07-05T06:04:39+00:00",
+  "generatedAt": "2026-07-05T14:03:14+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -1027,7 +1027,7 @@
             147.604,
             151.7414,
             141.4178,
-            134.0182,
+            134.0181,
             129.1348,
             128.7171,
             124.6294,
@@ -3159,8 +3159,8 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3108.3804,
-            3093.5542,
+            3108.3801,
+            3093.5544,
             3060.7986,
             3120.1931,
             3102.3352,
@@ -3334,7 +3334,7 @@
           "fromHighPct": -12.06,
           "fromLowPct": 34.89,
           "sparkline": [
-            287.7297,
+            287.7298,
             292.8921,
             308.1423,
             301.7165,
@@ -4476,11 +4476,11 @@
   "ai": {
     "todaysRead": "The cohort median is down 22.66% year-to-date, trailing the S&P 500's 9.11% gain. Recovery from the June 22 trough of -28.69% remains limited. Eleven stocks are classified as quality on sale, while seven are priced for hope.",
     "buckets": {
-      "sp500_software": "Median down 22.7%, with Fortinet leading and Intuit lagging.",
-      "big_saas_outside": "Median down 11.4%, led by DigitalOcean's 165.73% gain.",
-      "gsi": "Median down 22.66% is not applicable; median down 35.3%, with IBM leading at 0.62%."
+      "sp500_software": "Median YTD return of -22.7%, with 18 of 27 names trailing",
+      "big_saas_outside": "Median YTD return of -11.4%, with 12 of 19 names in red",
+      "gsi": "Median YTD return of -35.3%, with 10 of 11 names declining"
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-05T06:04:39+00:00"
+    "generatedAt": "2026-07-05T14:03:14+00:00"
   }
 }
