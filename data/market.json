@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-11",
-  "generatedAt": "2026-07-11T14:04:13+00:00",
+  "generatedAt": "2026-07-11T21:05:14+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 8.28,
           "sparkline": [
             623.6048,
-            645.0931,
+            645.093,
             600.7542,
             541.2126,
             543.5947,
@@ -905,14 +905,14 @@
           "sparkline": [
             432.3508,
             435.3954,
-            424.2119,
+            424.212,
             414.0435,
             405.4271,
             358.5544,
             370.7328,
             349.2317,
-            347.0825,
-            313.9404,
+            347.0826,
+            313.9403,
             334.0983,
             342.5057,
             354.2065,
@@ -3043,7 +3043,7 @@
             46.8956,
             46.0249,
             45.4214,
-            45.6984,
+            45.6985,
             44.3035,
             43.6604,
             37.2988,
@@ -3159,8 +3159,8 @@
           "sparkline": [
             3127.3726,
             3154.8926,
-            3139.1946,
-            3093.5542,
+            3139.1948,
+            3093.5544,
             3060.7986,
             3115.7534,
             3082.1094,
@@ -3334,9 +3334,9 @@
           "fromHighPct": -12.66,
           "fromLowPct": 33.97,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
-            299.239,
+            299.2389,
             301.7165,
             290.8588,
             290.3553,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort is largely in the red, with 16 of 57 stocks above water. The median YTD return is -23.88%, trailing the S&P 500's 10.45% gain. Recovery from the May 14 trough has been modest, as 11 stocks meet the Rule of 40 threshold while remaining down YTD.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -23.88%. Recovery from the May 14 trough is ongoing, though a significant gap persists between software stocks and the S&P 500's 10.45% gain. Eleven stocks meet the 'quality on sale' criteria, while six are 'priced for hope'.",
     "buckets": {
-      "sp500_software": "Median return -23.9%, with Fortinet leading gains at 102.25%.",
-      "big_saas_outside": "Median return -13.8%, outperforming the broader cohort median.",
-      "gsi": "Worst performing bucket, with a median YTD return of -35.3%."
+      "sp500_software": "Median YTD return of -23.9%, with 18 of 27 stocks in red.",
+      "big_saas_outside": "Median YTD return of -13.8%, with 12 of 19 stocks in red.",
+      "gsi": "Median YTD යනගොඩමනින් මාරුකාලයන් හෝ කිසිවෙකුටත් නොවන අතර, Median YTD return of -35.3%, with all 11 stocks in red."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-11T14:04:13+00:00"
+    "generatedAt": "2026-07-11T21:05:14+00:00"
   }
 }
