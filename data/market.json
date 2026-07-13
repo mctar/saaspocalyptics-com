@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-07-12",
-  "generatedAt": "2026-07-12T21:04:13+00:00",
+  "asOf": "2026-07-13",
+  "generatedAt": "2026-07-13T06:05:40+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -21,7 +21,7 @@
             623.6048,
             645.0931,
             600.7542,
-            541.2127,
+            541.2126,
             543.5947,
             534.672,
             483.4776,
@@ -36,8 +36,8 @@
             455.8458,
             452.1536,
             423.6682,
-            429.1469,
-            414.2393,
+            429.147,
+            414.2392,
             360.0949,
             365.1823,
             403.0446,
@@ -2803,7 +2803,7 @@
           "fromHighPct": -50.3,
           "fromLowPct": 9.91,
           "sparkline": [
-            80.3022,
+            80.3023,
             83.0982,
             83.4539,
             83.7206,
@@ -3043,7 +3043,7 @@
             46.8956,
             46.0249,
             45.4214,
-            45.6985,
+            45.6984,
             44.3035,
             43.6604,
             37.2988,
@@ -3147,65 +3147,6 @@
           }
         },
         {
-          "ticker": "TCS.NS",
-          "name": "Tata Consultancy Services",
-          "currency": "INR",
-          "baseline": 3127.37,
-          "last": 2069.0,
-          "lastDate": "2026-07-10",
-          "ytdPct": -33.84,
-          "fromHighPct": -35.21,
-          "fromLowPct": 4.36,
-          "sparkline": [
-            3127.3726,
-            3154.8926,
-            3139.1948,
-            3093.5544,
-            3060.7986,
-            3115.7534,
-            3082.1094,
-            2958.9792,
-            2944.6731,
-            2656.1846,
-            2658.8484,
-            2539.2698,
-            2602.1177,
-            2544.3018,
-            2431.9253,
-            2376.9705,
-            2324.4822,
-            2345.5959,
-            2375.9839,
-            2505.8235,
-            2439.5225,
-            2546.9656,
-            2504.5408,
-            2411.9956,
-            2440.8049,
-            2402.8198,
-            2269.5273,
-            2233.7129,
-            2296.2646,
-            2276.2,
-            2258.8999,
-            2241.7,
-            2151.0,
-            2161.3999,
-            2223.0,
-            2059.6001,
-            2094.7,
-            1982.6,
-            2096.1001,
-            2069.0
-          ],
-          "fundamentals": {
-            "revenueGrowthPct": 13.9,
-            "operatingMarginPct": 24.0,
-            "ruleOf40": 37.9,
-            "marketCap": 7485822861312
-          }
-        },
-        {
           "ticker": "DXC",
           "name": "DXC Technology",
           "currency": "USD",
@@ -3269,11 +3210,11 @@
           "name": "Infosys (NSE)",
           "currency": "INR",
           "baseline": 1595.28,
-          "last": 1068.0,
-          "lastDate": "2026-07-10",
-          "ytdPct": -33.05,
-          "fromHighPct": -35.43,
-          "fromLowPct": 8.39,
+          "last": 1087.2,
+          "lastDate": "2026-07-13",
+          "ytdPct": -31.85,
+          "fromHighPct": -34.27,
+          "fromLowPct": 10.34,
           "sparkline": [
             1595.2792,
             1578.0519,
@@ -3282,45 +3223,104 @@
             1623.7628,
             1647.0586,
             1606.2419,
-            1503.2701,
+            1488.0005,
             1466.0751,
             1340.101,
-            1344.6035,
+            1341.4714,
             1248.4835,
             1272.5625,
-            1278.1418,
+            1280.6868,
             1249.2667,
             1223.328,
-            1194.9423,
+            1229.2987,
             1252.0073,
             1248.6793,
-            1311.0302,
+            1317.686,
             1249.7561,
-            1290.7686,
-            1241.7297,
+            1284.7977,
+            1214.3228,
             1127.6973,
-            1156.7683,
-            1142.4774,
+            1143.6521,
+            1138.0728,
             1116.1473,
-            1095.2985,
-            1168.4161,
+            1118.3007,
+            1156.1809,
             1142.9668,
-            1136.3109,
-            1196.704,
+            1177.0298,
+            1175.8552,
             1155.3,
-            1116.4,
-            1157.7,
-            1029.3,
-            1041.2,
-            985.3,
-            1071.8,
-            1068.0
+            1134.9,
+            1127.5,
+            1056.6,
+            1036.7,
+            1040.9,
+            1069.3,
+            1087.2
           ],
           "fundamentals": {
             "revenueGrowthPct": 6.6,
             "operatingMarginPct": 20.9,
             "ruleOf40": 27.5,
-            "marketCap": 4324255072256
+            "marketCap": 4401184899072
+          }
+        },
+        {
+          "ticker": "TCS.NS",
+          "name": "Tata Consultancy Services",
+          "currency": "INR",
+          "baseline": 3127.37,
+          "last": 2163.5,
+          "lastDate": "2026-07-13",
+          "ytdPct": -30.82,
+          "fromHighPct": -32.25,
+          "fromLowPct": 9.12,
+          "sparkline": [
+            3127.3726,
+            3154.8926,
+            3139.1948,
+            3093.5544,
+            3060.7986,
+            3115.7534,
+            3082.1094,
+            2951.4807,
+            2944.6731,
+            2656.1846,
+            2642.0759,
+            2539.2698,
+            2602.1177,
+            2523.3855,
+            2431.9253,
+            2376.9705,
+            2358.6194,
+            2345.5959,
+            2375.9839,
+            2524.9639,
+            2439.5225,
+            2545.0911,
+            2488.0642,
+            2411.9956,
+            2398.7749,
+            2369.2747,
+            2269.5273,
+            2252.656,
+            2296.0674,
+            2276.2,
+            2297.3999,
+            2241.0,
+            2151.0,
+            2162.0,
+            2203.3,
+            2109.0,
+            2097.8999,
+            2068.1001,
+            2057.5,
+            2163.5
+          ],
+          "fundamentals": {
+            "revenueGrowthPct": 13.9,
+            "operatingMarginPct": 24.0,
+            "ruleOf40": 37.9,
+            "marketCap": 7825923244032
           }
         },
         {
@@ -3334,9 +3334,9 @@
           "fromHighPct": -12.66,
           "fromLowPct": 33.97,
           "sparkline": [
-            287.7298,
+            287.7297,
             292.8921,
-            299.239,
+            299.2389,
             301.7165,
             290.8588,
             290.3553,
@@ -3609,16 +3609,16 @@
       "spxYtd": 1.08
     },
     {
-      "date": "2026-02-09",
-      "medianYtd": -14.77,
+      "date": "2026-02-10",
+      "medianYtd": -12.8,
       "pctUp": 12.3,
       "buckets": {
-        "sp500_software": -15.08,
-        "big_saas_outside": -15.45,
-        "gsi": -8.22
+        "sp500_software": -15.98,
+        "big_saas_outside": -13.37,
+        "gsi": -8.1
       },
-      "igvYtd": -17.11,
-      "spxYtd": 1.55
+      "igvYtd": -16.77,
+      "spxYtd": 1.22
     },
     {
       "date": "2026-02-11",
@@ -3633,16 +3633,16 @@
       "spxYtd": 1.21
     },
     {
-      "date": "2026-02-12",
-      "medianYtd": -19.83,
+      "date": "2026-02-13",
+      "medianYtd": -18.12,
       "pctUp": 7.0,
       "buckets": {
-        "sp500_software": -19.83,
-        "big_saas_outside": -20.21,
-        "gsi": -18.63
+        "sp500_software": -17.96,
+        "big_saas_outside": -18.33,
+        "gsi": -17.01
       },
-      "igvYtd": -21.11,
-      "spxYtd": -0.37
+      "igvYtd": -19.34,
+      "spxYtd": -0.33
     },
     {
       "date": "2026-02-16",
@@ -3657,16 +3657,16 @@
       "spxYtd": -0.33
     },
     {
-      "date": "2026-02-17",
-      "medianYtd": -19.09,
+      "date": "2026-02-18",
+      "medianYtd": -18.49,
       "pctUp": 5.3,
       "buckets": {
-        "sp500_software": -19.74,
-        "big_saas_outside": -21.33,
-        "gsi": -17.82
+        "sp500_software": -18.49,
+        "big_saas_outside": -20.05,
+        "gsi": -15.71
       },
-      "igvYtd": -21.11,
-      "spxYtd": -0.22
+      "igvYtd": -20.09,
+      "spxYtd": 0.33
     },
     {
       "date": "2026-02-19",
@@ -3681,16 +3681,16 @@
       "spxYtd": 0.05
     },
     {
-      "date": "2026-02-20",
-      "medianYtd": -19.9,
-      "pctUp": 5.3,
+      "date": "2026-02-23",
+      "medianYtd": -23.75,
+      "pctUp": 3.5,
       "buckets": {
-        "sp500_software": -19.43,
-        "big_saas_outside": -20.67,
-        "gsi": -17.16
+        "sp500_software": -22.76,
+        "big_saas_outside": -26.49,
+        "gsi": -22.94
       },
-      "igvYtd": -21.28,
-      "spxYtd": 0.74
+      "igvYtd": -25.02,
+      "spxYtd": -0.3
     },
     {
       "date": "2026-02-24",
@@ -3705,16 +3705,16 @@
       "spxYtd": 0.46
     },
     {
-      "date": "2026-02-25",
-      "medianYtd": -20.84,
-      "pctUp": 3.5,
+      "date": "2026-02-26",
+      "medianYtd": -18.58,
+      "pctUp": 5.3,
       "buckets": {
-        "sp500_software": -20.06,
-        "big_saas_outside": -21.19,
-        "gsi": -21.54
+        "sp500_software": -16.71,
+        "big_saas_outside": -18.43,
+        "gsi": -19.66
       },
-      "igvYtd": -21.21,
-      "spxYtd": 1.28
+      "igvYtd": -19.51,
+      "spxYtd": 0.73
     },
     {
       "date": "2026-02-27",
@@ -3729,16 +3729,16 @@
       "spxYtd": 0.3
     },
     {
-      "date": "2026-03-02",
-      "medianYtd": -18.63,
+      "date": "2026-03-03",
+      "medianYtd": -17.55,
       "pctUp": 5.3,
       "buckets": {
-        "sp500_software": -15.81,
-        "big_saas_outside": -20.43,
-        "gsi": -20.92
+        "sp500_software": -13.7,
+        "big_saas_outside": -21.65,
+        "gsi": -20.44
       },
-      "igvYtd": -19.34,
-      "spxYtd": 0.34
+      "igvYtd": -18.03,
+      "spxYtd": -0.61
     },
     {
       "date": "2026-03-04",
@@ -3837,16 +3837,16 @@
       "spxYtd": -3.67
     },
     {
-      "date": "2026-03-20",
-      "medianYtd": -19.65,
+      "date": "2026-03-23",
+      "medianYtd": -19.62,
       "pctUp": 8.8,
       "buckets": {
-        "sp500_software": -17.87,
-        "big_saas_outside": -22.47,
-        "gsi": -23.25
+        "sp500_software": -16.71,
+        "big_saas_outside": -19.92,
+        "gsi": -23.41
       },
-      "igvYtd": -19.13,
-      "spxYtd": -5.13
+      "igvYtd": -17.72,
+      "spxYtd": -4.05
     },
     {
       "date": "2026-03-24",
@@ -3861,16 +3861,16 @@
       "spxYtd": -4.4
     },
     {
-      "date": "2026-03-25",
-      "medianYtd": -21.52,
+      "date": "2026-03-26",
+      "medianYtd": -22.43,
       "pctUp": 8.8,
       "buckets": {
-        "sp500_software": -20.21,
-        "big_saas_outside": -24.51,
-        "gsi": -26.03
+        "sp500_software": -19.05,
+        "big_saas_outside": -24.55,
+        "gsi": -24.87
       },
-      "igvYtd": -21.65,
-      "spxYtd": -3.89
+      "igvYtd": -22.29,
+      "spxYtd": -5.56
     },
     {
       "date": "2026-03-27",
@@ -3885,16 +3885,16 @@
       "spxYtd": -7.14
     },
     {
-      "date": "2026-03-30",
-      "medianYtd": -23.93,
-      "pctUp": 7.0,
+      "date": "2026-03-31",
+      "medianYtd": -22.08,
+      "pctUp": 8.8,
       "buckets": {
-        "sp500_software": -20.25,
-        "big_saas_outside": -27.61,
-        "gsi": -24.49
+        "sp500_software": -18.57,
+        "big_saas_outside": -24.25,
+        "gsi": -24.14
       },
-      "igvYtd": -24.36,
-      "spxYtd": -7.51
+      "igvYtd": -21.99,
+      "spxYtd": -4.81
     },
     {
       "date": "2026-04-01",
@@ -3909,16 +3909,16 @@
       "spxYtd": -4.13
     },
     {
-      "date": "2026-04-02",
-      "medianYtd": -22.19,
+      "date": "2026-04-06",
+      "medianYtd": -20.98,
       "pctUp": 8.8,
       "buckets": {
-        "sp500_software": -18.7,
-        "big_saas_outside": -23.6,
-        "gsi": -22.66
+        "sp500_software": -17.35,
+        "big_saas_outside": -23.87,
+        "gsi": -22.9
       },
-      "igvYtd": -21.71,
-      "spxYtd": -4.02
+      "igvYtd": -21.59,
+      "spxYtd": -3.6
     },
     {
       "date": "2026-04-07",
@@ -3933,16 +3933,16 @@
       "spxYtd": -3.52
     },
     {
-      "date": "2026-04-08",
-      "medianYtd": -22.87,
-      "pctUp": 8.8,
+      "date": "2026-04-09",
+      "medianYtd": -24.44,
+      "pctUp": 7.0,
       "buckets": {
-        "sp500_software": -20.67,
-        "big_saas_outside": -24.62,
-        "gsi": -22.87
+        "sp500_software": -22.26,
+        "big_saas_outside": -28.44,
+        "gsi": -22.6
       },
-      "igvYtd": -22.29,
-      "spxYtd": -1.1
+      "igvYtd": -25.32,
+      "spxYtd": -0.49
     },
     {
       "date": "2026-04-10",
@@ -3957,16 +3957,16 @@
       "spxYtd": -0.61
     },
     {
-      "date": "2026-04-13",
-      "medianYtd": -23.03,
+      "date": "2026-04-14",
+      "medianYtd": -23.37,
       "pctUp": 7.0,
       "buckets": {
-        "sp500_software": -21.1,
-        "big_saas_outside": -27.29,
-        "gsi": -23.03
+        "sp500_software": -20.28,
+        "big_saas_outside": -26.82,
+        "gsi": -23.2
       },
-      "igvYtd": -23.31,
-      "spxYtd": 0.4
+      "igvYtd": -22.55,
+      "spxYtd": 1.59
     },
     {
       "date": "2026-04-15",
@@ -3981,16 +3981,16 @@
       "spxYtd": 2.4
     },
     {
-      "date": "2026-04-16",
-      "medianYtd": -20.47,
-      "pctUp": 8.8,
+      "date": "2026-04-17",
+      "medianYtd": -19.16,
+      "pctUp": 12.3,
       "buckets": {
-        "sp500_software": -16.51,
-        "big_saas_outside": -24.43,
-        "gsi": -20.77
+        "sp500_software": -16.38,
+        "big_saas_outside": -23.24,
+        "gsi": -20.33
       },
-      "igvYtd": -17.79,
-      "spxYtd": 2.67
+      "igvYtd": -17.09,
+      "spxYtd": 3.9
     },
     {
       "date": "2026-04-20",
@@ -4005,16 +4005,16 @@
       "spxYtd": 3.65
     },
     {
-      "date": "2026-04-21",
-      "medianYtd": -19.43,
-      "pctUp": 12.3,
+      "date": "2026-04-22",
+      "medianYtd": -20.52,
+      "pctUp": 15.8,
       "buckets": {
-        "sp500_software": -14.39,
-        "big_saas_outside": -21.32,
-        "gsi": -22.2
+        "sp500_software": -14.18,
+        "big_saas_outside": -20.81,
+        "gsi": -24.16
       },
-      "igvYtd": -15.53,
-      "spxYtd": 3.0
+      "igvYtd": -13.53,
+      "spxYtd": 4.07
     },
     {
       "date": "2026-04-23",
@@ -4029,28 +4029,16 @@
       "spxYtd": 3.64
     },
     {
-      "date": "2026-04-24",
-      "medianYtd": -24.04,
-      "pctUp": 14.0,
-      "buckets": {
-        "sp500_software": -18.47,
-        "big_saas_outside": -24.04,
-        "gsi": -29.16
-      },
-      "igvYtd": -16.98,
-      "spxYtd": 4.47
-    },
-    {
-      "date": "2026-04-28",
-      "medianYtd": -22.87,
+      "date": "2026-04-27",
+      "medianYtd": -22.54,
       "pctUp": 17.5,
       "buckets": {
-        "sp500_software": -18.09,
-        "big_saas_outside": -23.62,
-        "gsi": -29.46
+        "sp500_software": -18.47,
+        "big_saas_outside": -22.48,
+        "gsi": -28.19
       },
-      "igvYtd": -17.17,
-      "spxYtd": 4.09
+      "igvYtd": -16.75,
+      "spxYtd": 4.6
     },
     {
       "date": "2026-04-29",
@@ -4065,16 +4053,16 @@
       "spxYtd": 4.05
     },
     {
-      "date": "2026-05-01",
-      "medianYtd": -20.17,
-      "pctUp": 19.3,
+      "date": "2026-04-30",
+      "medianYtd": -21.95,
+      "pctUp": 14.0,
       "buckets": {
-        "sp500_software": -14.78,
-        "big_saas_outside": -18.4,
+        "sp500_software": -17.34,
+        "big_saas_outside": -22.04,
         "gsi": -27.49
       },
-      "igvYtd": -15.58,
-      "spxYtd": 5.42
+      "igvYtd": -18.23,
+      "spxYtd": 5.11
     },
     {
       "date": "2026-05-04",
@@ -4089,16 +4077,16 @@
       "spxYtd": 4.99
     },
     {
-      "date": "2026-05-06",
-      "medianYtd": -24.39,
+      "date": "2026-05-05",
+      "medianYtd": -23.31,
       "pctUp": 19.3,
       "buckets": {
-        "sp500_software": -19.19,
-        "big_saas_outside": -24.39,
-        "gsi": -28.38
+        "sp500_software": -17.74,
+        "big_saas_outside": -21.92,
+        "gsi": -27.72
       },
-      "igvYtd": -14.42,
-      "spxYtd": 7.39
+      "igvYtd": -13.98,
+      "spxYtd": 5.84
     },
     {
       "date": "2026-05-07",
@@ -4113,16 +4101,28 @@
       "spxYtd": 6.98
     },
     {
-      "date": "2026-05-11",
-      "medianYtd": -24.51,
+      "date": "2026-05-08",
+      "medianYtd": -23.93,
+      "pctUp": 26.3,
+      "buckets": {
+        "sp500_software": -13.79,
+        "big_saas_outside": -23.93,
+        "gsi": -29.31
+      },
+      "igvYtd": -11.18,
+      "spxYtd": 7.88
+    },
+    {
+      "date": "2026-05-12",
+      "medianYtd": -25.26,
       "pctUp": 19.3,
       "buckets": {
-        "sp500_software": -14.22,
-        "big_saas_outside": -26.27,
-        "gsi": -32.23
+        "sp500_software": -15.21,
+        "big_saas_outside": -22.75,
+        "gsi": -33.61
       },
-      "igvYtd": -11.63,
-      "spxYtd": 8.08
+      "igvYtd": -12.84,
+      "spxYtd": 7.91
     },
     {
       "date": "2026-05-13",
@@ -4137,16 +4137,16 @@
       "spxYtd": 8.54
     },
     {
-      "date": "2026-05-14",
-      "medianYtd": -28.89,
-      "pctUp": 22.8,
+      "date": "2026-05-15",
+      "medianYtd": -25.96,
+      "pctUp": 21.1,
       "buckets": {
-        "sp500_software": -17.78,
-        "big_saas_outside": -24.16,
-        "gsi": -36.38
+        "sp500_software": -16.57,
+        "big_saas_outside": -21.89,
+        "gsi": -34.51
       },
-      "igvYtd": -11.67,
-      "spxYtd": 9.37
+      "igvYtd": -10.56,
+      "spxYtd": 8.02
     },
     {
       "date": "2026-05-18",
@@ -4161,16 +4161,16 @@
       "spxYtd": 7.94
     },
     {
-      "date": "2026-05-19",
-      "medianYtd": -23.5,
+      "date": "2026-05-20",
+      "medianYtd": -23.81,
       "pctUp": 24.6,
       "buckets": {
-        "sp500_software": -14.64,
-        "big_saas_outside": -20.55,
-        "gsi": -30.68
+        "sp500_software": -13.02,
+        "big_saas_outside": -20.91,
+        "gsi": -29.69
       },
-      "igvYtd": -10.4,
-      "spxYtd": 7.22
+      "igvYtd": -9.06,
+      "spxYtd": 8.38
     },
     {
       "date": "2026-05-21",
@@ -4185,7 +4185,7 @@
       "spxYtd": 8.56
     },
     {
-      "date": "2026-05-22",
+      "date": "2026-05-25",
       "medianYtd": -24.46,
       "pctUp": 24.6,
       "buckets": {
@@ -4209,16 +4209,16 @@
       "spxYtd": 9.63
     },
     {
-      "date": "2026-05-27",
-      "medianYtd": -26.32,
-      "pctUp": 22.8,
+      "date": "2026-05-28",
+      "medianYtd": -20.6,
+      "pctUp": 26.3,
       "buckets": {
-        "sp500_software": -16.37,
-        "big_saas_outside": -25.72,
-        "gsi": -30.87
+        "sp500_software": -14.61,
+        "big_saas_outside": -19.23,
+        "gsi": -29.04
       },
-      "igvYtd": -9.33,
-      "spxYtd": 9.65
+      "igvYtd": -6.76,
+      "spxYtd": 10.28
     },
     {
       "date": "2026-05-29",
@@ -4233,16 +4233,16 @@
       "spxYtd": 10.52
     },
     {
-      "date": "2026-06-01",
-      "medianYtd": -13.45,
-      "pctUp": 35.1,
+      "date": "2026-06-02",
+      "medianYtd": -16.32,
+      "pctUp": 33.3,
       "buckets": {
-        "sp500_software": -4.3,
-        "big_saas_outside": -6.2,
-        "gsi": -26.12
+        "sp500_software": -9.35,
+        "big_saas_outside": -6.85,
+        "gsi": -27.68
       },
-      "igvYtd": 4.95,
-      "spxYtd": 10.81
+      "igvYtd": 2.06,
+      "spxYtd": 10.95
     },
     {
       "date": "2026-06-03",
@@ -4257,28 +4257,16 @@
       "spxYtd": 10.14
     },
     {
-      "date": "2026-06-04",
-      "medianYtd": -18.52,
-      "pctUp": 33.3,
-      "buckets": {
-        "sp500_software": -15.58,
-        "big_saas_outside": -10.29,
-        "gsi": -29.11
-      },
-      "igvYtd": -2.49,
-      "spxYtd": 10.58
-    },
-    {
-      "date": "2026-06-08",
-      "medianYtd": -21.52,
+      "date": "2026-06-05",
+      "medianYtd": -19.8,
       "pctUp": 29.8,
       "buckets": {
-        "sp500_software": -18.7,
-        "big_saas_outside": -13.83,
-        "gsi": -31.21
+        "sp500_software": -19.26,
+        "big_saas_outside": -13.99,
+        "gsi": -29.69
       },
-      "igvYtd": -6.79,
-      "spxYtd": 7.98
+      "igvYtd": -6.6,
+      "spxYtd": 7.66
     },
     {
       "date": "2026-06-09",
@@ -4293,16 +4281,16 @@
       "spxYtd": 7.7
     },
     {
-      "date": "2026-06-11",
-      "medianYtd": -26.37,
-      "pctUp": 24.6,
+      "date": "2026-06-10",
+      "medianYtd": -22.83,
+      "pctUp": 26.3,
       "buckets": {
-        "sp500_software": -21.91,
-        "big_saas_outside": -17.01,
-        "gsi": -31.71
+        "sp500_software": -20.59,
+        "big_saas_outside": -16.23,
+        "gsi": -31.13
       },
-      "igvYtd": -11.4,
-      "spxYtd": 7.81
+      "igvYtd": -10.76,
+      "spxYtd": 5.96
     },
     {
       "date": "2026-06-12",
@@ -4317,16 +4305,16 @@
       "spxYtd": 8.35
     },
     {
-      "date": "2026-06-16",
-      "medianYtd": -24.79,
+      "date": "2026-06-15",
+      "medianYtd": -24.73,
       "pctUp": 24.6,
       "buckets": {
-        "sp500_software": -20.62,
-        "big_saas_outside": -17.16,
-        "gsi": -31.05
+        "sp500_software": -19.75,
+        "big_saas_outside": -14.14,
+        "gsi": -31.75
       },
-      "igvYtd": -10.95,
-      "spxYtd": 9.52
+      "igvYtd": -9.67,
+      "spxYtd": 10.15
     },
     {
       "date": "2026-06-17",
@@ -4341,7 +4329,7 @@
       "spxYtd": 8.19
     },
     {
-      "date": "2026-06-19",
+      "date": "2026-06-18",
       "medianYtd": -26.59,
       "pctUp": 22.8,
       "buckets": {
@@ -4365,16 +4353,16 @@
       "spxYtd": 8.96
     },
     {
-      "date": "2026-06-24",
-      "medianYtd": -25.0,
+      "date": "2026-06-23",
+      "medianYtd": -27.95,
       "pctUp": 22.8,
       "buckets": {
-        "sp500_software": -23.49,
-        "big_saas_outside": -21.86,
-        "gsi": -37.19
+        "sp500_software": -23.97,
+        "big_saas_outside": -19.69,
+        "gsi": -37.74
       },
-      "igvYtd": -16.01,
-      "spxYtd": 7.29
+      "igvYtd": -14.89,
+      "spxYtd": 7.39
     },
     {
       "date": "2026-06-25",
@@ -4389,16 +4377,16 @@
       "spxYtd": 7.28
     },
     {
-      "date": "2026-06-29",
-      "medianYtd": -25.68,
-      "pctUp": 24.6,
+      "date": "2026-06-26",
+      "medianYtd": -23.64,
+      "pctUp": 22.8,
       "buckets": {
-        "sp500_software": -24.04,
-        "big_saas_outside": -17.23,
-        "gsi": -37.07
+        "sp500_software": -23.64,
+        "big_saas_outside": -20.4,
+        "gsi": -37.19
       },
-      "igvYtd": -12.39,
-      "spxYtd": 8.49
+      "igvYtd": -14.04,
+      "spxYtd": 7.23
     },
     {
       "date": "2026-06-30",
@@ -4413,15 +4401,15 @@
       "spxYtd": 9.34
     },
     {
-      "date": "2026-07-02",
-      "medianYtd": -22.66,
-      "pctUp": 29.8,
+      "date": "2026-07-01",
+      "medianYtd": -25.1,
+      "pctUp": 28.1,
       "buckets": {
-        "sp500_software": -22.66,
-        "big_saas_outside": -11.36,
-        "gsi": -35.27
+        "sp500_software": -25.1,
+        "big_saas_outside": -12.85,
+        "gsi": -37.78
       },
-      "igvYtd": -8.8,
+      "igvYtd": -9.03,
       "spxYtd": 9.11
     },
     {
@@ -4437,16 +4425,16 @@
       "spxYtd": 9.11
     },
     {
-      "date": "2026-07-07",
-      "medianYtd": -19.95,
-      "pctUp": 31.6,
+      "date": "2026-07-06",
+      "medianYtd": -21.04,
+      "pctUp": 29.8,
       "buckets": {
-        "sp500_software": -19.95,
-        "big_saas_outside": -9.92,
-        "gsi": -34.52
+        "sp500_software": -21.04,
+        "big_saas_outside": -10.44,
+        "gsi": -36.24
       },
-      "igvYtd": -8.26,
-      "spxYtd": 9.41
+      "igvYtd": -7.61,
+      "spxYtd": 9.9
     },
     {
       "date": "2026-07-08",
@@ -4461,7 +4449,19 @@
       "spxYtd": 9.1
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-09",
+      "medianYtd": -22.14,
+      "pctUp": 29.8,
+      "buckets": {
+        "sp500_software": -22.14,
+        "big_saas_outside": -9.2,
+        "gsi": -34.74
+      },
+      "igvYtd": -8.5,
+      "spxYtd": 9.99
+    },
+    {
+      "date": "2026-07-13",
       "medianYtd": -23.88,
       "pctUp": 28.1,
       "buckets": {
@@ -4474,13 +4474,14 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains predominantly in the red with a median YTD return of -23.88%. Recovery from the May 14 trough is modest, while the gap to the S&P 500's 10.45% gain is significant. Eleven stocks are classified as quality on sale, while six are priced for hope.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -23.88%. Recovery from the June 22 trough is modest, as the group continues to widen the gap to the S&P 500's 10.45% gain. Eleven stocks are classified as quality on sale, while six are priced for hope.",
+    "sinceLastRun": "Tata Consultancy Services rose 3.0% and Infosys (NSE) increased 1.2%.",
     "buckets": {
-      "sp500_software": "Median YTD return of -23.9%, with 18 of 27 stocks in the red.",
-      "big_saas_outside": "Median YTD return of -13.8%, with 12 of 19 stocks in thered.",
-      "gsi": "Median YTD return of -35.3%, with all 11 stocks in the red."
+      "sp500_software": "Median YTD return of -23.9%, with 18 of 27 stocks in red.",
+      "big_saas_outside": "Median YTD return of -13.8%, with 12 of 19 stocks in red.",
+      "gsi": "Median YTD return of -35.3%, with all 11 stocks in red."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-12T21:04:13+00:00"
+    "generatedAt": "2026-07-13T06:05:40+00:00"
   }
 }
