@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-19",
-  "generatedAt": "2026-07-19T06:01:28+00:00",
+  "generatedAt": "2026-07-19T14:05:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,15 +19,15 @@
           "fromLowPct": 14.63,
           "sparkline": [
             623.6048,
-            645.0931,
+            645.093,
             600.7542,
-            541.2126,
-            559.7529,
+            541.2127,
+            559.753,
             534.672,
             430.8441,
             440.4518,
             396.7014,
-            386.657,
+            386.6571,
             356.8615,
             405.9715,
             436.8489,
@@ -2803,7 +2803,7 @@
           "fromHighPct": -47.73,
           "fromLowPct": 15.6,
           "sparkline": [
-            80.3022,
+            80.3023,
             83.0982,
             83.4539,
             83.7206,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the negative, with 17 of 57 stocks above water. The median YTD return is -23.49%, trailing the S&P 500's 8.74% gain. Recovery from the May 14 trough median of -28.89% is modest.",
+    "todaysRead": "The cohort remains predominantly in the red with a median YTD return of -23.49% against an S&P 500 return of 8.74%. Recovery from the May 14 trough is ongoing, though breadth is limited to 17 of 57 names. Fundamental lens analysis indicates 11 stocks are categorized as quality on sale and 7 as priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return -21.1%, with 18 of 27 stocks in red.",
-      "big_saas_outside": "Median YTD return -11.6%, with 11 of 19 stocks in red.",
-      "gsi": "Median YTD return -33.0%, with 17 of 11 stocks in red."
+      "sp500_software": "Median YTD return -21.1% with Fortinet leading gains at 107.51%.",
+      "big_saas_outside": "Outperforming the cohort median with a -11.6% median YTD return.",
+      "gsi": "Worst performing bucket with a median YTD return of -33.0%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-19T06:01:28+00:00"
+    "generatedAt": "2026-07-19T14:05:13+00:00"
   }
 }
