@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-19",
-  "generatedAt": "2026-07-19T14:05:13+00:00",
+  "generatedAt": "2026-07-19T21:02:16+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -2873,14 +2873,14 @@
             225.7775,
             219.0952,
             197.1181,
-            204.5058,
+            204.5059,
             205.76,
             197.559,
             192.6795,
             199.4402,
             189.6323,
             188.7113,
-            197.2651,
+            197.265,
             189.9263,
             188.1081,
             195.3017,
@@ -3285,10 +3285,10 @@
             2935.3862,
             2855.2188,
             2655.8303,
-            2635.8127,
+            2635.813,
             2579.9802,
             2539.2588,
-            2479.9915,
+            2479.9917,
             2396.5859,
             2395.0161,
             2339.0852,
@@ -3296,13 +3296,13 @@
             2427.4951,
             2476.9497,
             2528.563,
-            2490.8833,
+            2490.8835,
             2401.6885,
             2427.4951,
-            2389.717,
+            2389.7173,
             2257.1516,
-            2221.5322,
-            2283.7429,
+            2221.5325,
+            2283.7432,
             2263.7876,
             2246.582,
             2228.7798,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains predominantly in the red with a median YTD return of -23.49% against an S&P 500 return of 8.74%. Recovery from the May 14 trough is ongoing, though breadth is limited to 17 of 57 names. Fundamental lens analysis indicates 11 stocks are categorized as quality on sale and 7 as priced for hope.",
+    "todaysRead": "The cohort remains largely in the negative, with 17 of 57 stocks above water. The median YTD return is -23.49%, trailing the S&P 500's 8.74% gain. Recovery from the May 14 trough median of -28.89% has been modest.",
     "buckets": {
-      "sp500_software": "Median YTD return -21.1% with Fortinet leading gains at 107.51%.",
-      "big_saas_outside": "Outperforming the cohort median with a -11.6% median YTD return.",
-      "gsi": "Worst performing bucket with a median YTD return of -33.0%."
+      "sp500_software": "Median YTD return is -21.1%, with 18 of 27 stocks in red.",
+      "big_saas_outside": "Median YTD return is -11.6%, with 11 of 19 stocks in red.",
+      "gsi": "Median YTD return is -33.0%, the weakest performing bucket."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-19T14:05:13+00:00"
+    "generatedAt": "2026-07-19T21:02:16+00:00"
   }
 }
