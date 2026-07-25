@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-25",
-  "generatedAt": "2026-07-25T14:02:13+00:00",
+  "generatedAt": "2026-07-25T21:03:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -22,7 +22,7 @@
             646.6782,
             600.7542,
             524.9949,
-            559.753,
+            559.7529,
             499.2191,
             430.8441,
             434.2287,
@@ -34,8 +34,8 @@
             437.1566,
             455.8458,
             452.1536,
-            429.3156,
-            429.1469,
+            429.3157,
+            429.147,
             407.1725,
             349.3923,
             385.4028,
@@ -964,12 +964,12 @@
           "sparkline": [
             432.3508,
             432.2811,
-            424.212,
+            424.2119,
             401.7259,
             405.5564,
             363.1611,
-            347.0626,
-            349.938,
+            347.0627,
+            349.9381,
             318.2087,
             330.3274,
             335.9987,
@@ -1205,7 +1205,7 @@
             249.0088,
             242.6594,
             242.0235,
-            218.4739,
+            218.474,
             216.7649,
             216.0453,
             212.8837,
@@ -2803,7 +2803,7 @@
           "fromHighPct": -49.79,
           "fromLowPct": 11.05,
           "sparkline": [
-            80.3022,
+            80.3023,
             84.7382,
             83.4539,
             81.2211,
@@ -2865,13 +2865,13 @@
             254.7015,
             276.1299,
             271.2113,
-            267.2038,
+            267.2039,
             275.3951,
             255.9459,
             236.3399,
             231.9797,
             217.5667,
-            210.6101,
+            210.61,
             192.7579,
             201.7722,
             209.6792,
@@ -3275,9 +3275,9 @@
           "fromHighPct": -37.23,
           "fromLowPct": 0.43,
           "sparkline": [
-            287.7297,
+            287.7298,
             298.8046,
-            299.2389,
+            299.239,
             287.5817,
             288.6576,
             305.2403,
@@ -4474,14 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 26.6% year-to-date, trailing the S&P 500's 8.02% gain. Recovery from the May 14 trough has been modest, with only 14 of 57 stocks above water. Breadth remains narrow, as evidenced by 12 stocks meeting the Rule of 40 threshold while remaining in negative territory.",
-    "sinceLastRun": "Dassault Systèmes and Capgemini saw the largest gains since the previous run.",
+    "todaysRead": "The cohort is largely in the red with a median YTD return of -26.6%. Recovery from the May 14 trough has been modest, as the gap to the S&P 500's 8.02% gain remains wide. Fifteen stocks pass the Rule of 40, while twelve are classified as quality on sale.",
     "buckets": {
-      "sp500_software": "Median YTD return is -26.5% with Fortinet leading gains.",
-      "big_saas_outside": "Median YTD return is -16.5% with DigitalOcean as top winner.",
-      "gsi": "All 11 stocks in the bucket are currently in the red."
+      "sp500_software": "Median YTD return -26.5%, with Fortinet leading gains at 94.58%.",
+      "big_saas_outside": "Median YTD return -16.5%, outperforming the broader cohort median.",
+      "gsi": "All eleven stocks in red, with a median YTD decline of -34.8%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-25T14:02:13+00:00"
+    "generatedAt": "2026-07-25T21:03:13+00:00"
   }
 }
