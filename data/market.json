@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-07-25",
-  "generatedAt": "2026-07-25T21:03:13+00:00",
+  "asOf": "2026-07-26",
+  "generatedAt": "2026-07-26T06:03:28+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -22,7 +22,7 @@
             646.6782,
             600.7542,
             524.9949,
-            559.7529,
+            559.753,
             499.2191,
             430.8441,
             434.2287,
@@ -34,8 +34,8 @@
             437.1566,
             455.8458,
             452.1536,
-            429.3157,
-            429.147,
+            429.3156,
+            429.1469,
             407.1725,
             349.3923,
             385.4028,
@@ -383,13 +383,13 @@
             184.4912,
             184.3519,
             184.4813,
-            191.9731,
+            191.9732,
             200.3704,
             193.1472,
             194.3212,
             194.3909,
             184.7002,
-            185.7249,
+            185.725,
             182.0338,
             164.5353,
             180.7535,
@@ -1205,7 +1205,7 @@
             249.0088,
             242.6594,
             242.0235,
-            218.474,
+            218.4739,
             216.7649,
             216.0453,
             212.8837,
@@ -2250,8 +2250,8 @@
           ],
           "fundamentals": {
             "revenueGrowthPct": 2.2,
-            "operatingMarginPct": 23.8,
-            "ruleOf40": 26.0,
+            "operatingMarginPct": 23.4,
+            "ruleOf40": 25.6,
             "marketCap": 26122274816
           }
         },
@@ -2803,7 +2803,7 @@
           "fromHighPct": -49.79,
           "fromLowPct": 11.05,
           "sparkline": [
-            80.3023,
+            80.3022,
             84.7382,
             83.4539,
             81.2211,
@@ -2964,8 +2964,8 @@
           ],
           "fundamentals": {
             "revenueGrowthPct": 2.9,
-            "operatingMarginPct": 21.1,
-            "ruleOf40": 24.0,
+            "operatingMarginPct": 21.2,
+            "ruleOf40": 24.1,
             "marketCap": 44996870144
           }
         },
@@ -3082,8 +3082,8 @@
           ],
           "fundamentals": {
             "revenueGrowthPct": 2.9,
-            "operatingMarginPct": 21.1,
-            "ruleOf40": 24.0,
+            "operatingMarginPct": 21.2,
+            "ruleOf40": 24.1,
             "marketCap": 4215773593600
           }
         },
@@ -3318,8 +3318,8 @@
           ],
           "fundamentals": {
             "revenueGrowthPct": 1.1,
-            "operatingMarginPct": 15.6,
-            "ruleOf40": 16.7,
+            "operatingMarginPct": 16.5,
+            "ruleOf40": 17.6,
             "marketCap": 201795764224
           }
         },
@@ -3340,27 +3340,27 @@
             3146.5493,
             3064.0271,
             3140.0735,
-            3164.8008,
+            3164.8005,
             2886.4221,
-            2698.5144,
+            2698.5142,
             2666.4275,
             2626.0986,
-            2598.0352,
+            2598.0349,
             2530.4275,
-            2418.6641,
+            2418.6638,
             2364.0088,
             2345.7578,
             2332.8052,
             2404.7302,
-            2540.4363,
-            2506.9758,
+            2540.436,
+            2506.9756,
             2561.533,
             2351.9395,
             2427.4951,
-            2389.7173,
+            2389.717,
             2348.0144,
-            2221.5325,
-            2283.7432,
+            2221.5322,
+            2283.7429,
             2263.7876,
             2284.8721,
             2228.7798,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort is largely in the red with a median YTD return of -26.6%. Recovery from the May 14 trough has been modest, as the gap to the S&P 500's 8.02% gain remains wide. Fifteen stocks pass the Rule of 40, while twelve are classified as quality on sale.",
+    "todaysRead": "The cohort remains largely in the negative, with a median YTD return of -26.6% against an S&P 500 return of 8.02%. Recovery from the May 14 trough is modest, as only 14 of 57 stocks are above water. The lens picture suggests a limited recovery, with 12 stocks identified as quality on sale and 6 priced for hope.",
     "buckets": {
       "sp500_software": "Median YTD return -26.5%, with Fortinet leading gains at 94.58%.",
-      "big_saas_outside": "Median YTD return -16.5%, outperforming the broader cohort median.",
-      "gsi": "All eleven stocks in red, with a median YTD decline of -34.8%."
+      "big_saas_outside": "Median YTD return -16.5%, with DigitalOcean up 167.82%.",
+      "gsi": "All 11 stocks in red, median YTD return -34.8%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-07-25T21:03:13+00:00"
+    "generatedAt": "2026-07-26T06:03:28+00:00"
   }
 }
