@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-26",
-  "generatedAt": "2026-07-26T06:03:28+00:00",
+  "generatedAt": "2026-07-26T14:02:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -22,7 +22,7 @@
             646.6782,
             600.7542,
             524.9949,
-            559.753,
+            559.7529,
             499.2191,
             430.8441,
             434.2287,
@@ -34,8 +34,8 @@
             437.1566,
             455.8458,
             452.1536,
-            429.3156,
-            429.1469,
+            429.3157,
+            429.147,
             407.1725,
             349.3923,
             385.4028,
@@ -383,13 +383,13 @@
             184.4912,
             184.3519,
             184.4813,
-            191.9732,
+            191.9731,
             200.3704,
             193.1472,
             194.3212,
             194.3909,
             184.7002,
-            185.725,
+            185.7249,
             182.0338,
             164.5353,
             180.7535,
@@ -964,12 +964,12 @@
           "sparkline": [
             432.3508,
             432.2811,
-            424.2119,
+            424.212,
             401.7259,
             405.5564,
             363.1611,
-            347.0627,
-            349.9381,
+            347.0626,
+            349.938,
             318.2087,
             330.3274,
             335.9987,
@@ -1205,7 +1205,7 @@
             249.0088,
             242.6594,
             242.0235,
-            218.4739,
+            218.474,
             216.7649,
             216.0453,
             212.8837,
@@ -1604,7 +1604,7 @@
     },
     "big_saas_outside": {
       "label": "Big SaaS Outside the Index",
-      "blurb": "Heavyweights the S&P 500 won't yet admit — Snowflake's home turf.",
+      "blurb": "Heavyweights the S&P 500 won't yet admit \u2014 Snowflake's home turf.",
       "members": [
         {
           "ticker": "HUBS",
@@ -2198,7 +2198,7 @@
         },
         {
           "ticker": "DSY.PA",
-          "name": "Dassault Systèmes",
+          "name": "Dassault Syst\u00e8mes",
           "currency": "EUR",
           "baseline": 23.09,
           "last": 19.88,
@@ -2865,13 +2865,13 @@
             254.7015,
             276.1299,
             271.2113,
-            267.2039,
+            267.2038,
             275.3951,
             255.9459,
             236.3399,
             231.9797,
             217.5667,
-            210.61,
+            210.6101,
             192.7579,
             201.7722,
             209.6792,
@@ -4472,15 +4472,5 @@
       "igvYtd": -15.11,
       "spxYtd": 8.02
     }
-  ],
-  "ai": {
-    "todaysRead": "The cohort remains largely in the negative, with a median YTD return of -26.6% against an S&P 500 return of 8.02%. Recovery from the May 14 trough is modest, as only 14 of 57 stocks are above water. The lens picture suggests a limited recovery, with 12 stocks identified as quality on sale and 6 priced for hope.",
-    "buckets": {
-      "sp500_software": "Median YTD return -26.5%, with Fortinet leading gains at 94.58%.",
-      "big_saas_outside": "Median YTD return -16.5%, with DigitalOcean up 167.82%.",
-      "gsi": "All 11 stocks in red, median YTD return -34.8%."
-    },
-    "model": "gemma4:31b",
-    "generatedAt": "2026-07-26T06:03:28+00:00"
-  }
+  ]
 }
