@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-26",
-  "generatedAt": "2026-07-26T14:02:13+00:00",
+  "generatedAt": "2026-07-26T21:01:13+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -383,13 +383,13 @@
             184.4912,
             184.3519,
             184.4813,
-            191.9731,
+            191.9732,
             200.3704,
             193.1472,
             194.3212,
             194.3909,
             184.7002,
-            185.7249,
+            185.725,
             182.0338,
             164.5353,
             180.7535,
@@ -964,12 +964,12 @@
           "sparkline": [
             432.3508,
             432.2811,
-            424.212,
+            424.2119,
             401.7259,
             405.5564,
             363.1611,
-            347.0626,
-            349.938,
+            347.0627,
+            349.9381,
             318.2087,
             330.3274,
             335.9987,
@@ -1205,7 +1205,7 @@
             249.0088,
             242.6594,
             242.0235,
-            218.474,
+            218.4739,
             216.7649,
             216.0453,
             212.8837,
@@ -1604,7 +1604,7 @@
     },
     "big_saas_outside": {
       "label": "Big SaaS Outside the Index",
-      "blurb": "Heavyweights the S&P 500 won't yet admit \u2014 Snowflake's home turf.",
+      "blurb": "Heavyweights the S&P 500 won't yet admit — Snowflake's home turf.",
       "members": [
         {
           "ticker": "HUBS",
@@ -2198,7 +2198,7 @@
         },
         {
           "ticker": "DSY.PA",
-          "name": "Dassault Syst\u00e8mes",
+          "name": "Dassault Systèmes",
           "currency": "EUR",
           "baseline": 23.09,
           "last": 19.88,
@@ -3340,27 +3340,27 @@
             3146.5493,
             3064.0271,
             3140.0735,
-            3164.8005,
+            3164.8008,
             2886.4221,
-            2698.5142,
+            2698.5144,
             2666.4275,
             2626.0986,
-            2598.0349,
+            2598.0352,
             2530.4275,
-            2418.6638,
+            2418.6641,
             2364.0088,
             2345.7578,
             2332.8052,
             2404.7302,
-            2540.436,
-            2506.9756,
+            2540.4363,
+            2506.9758,
             2561.533,
             2351.9395,
             2427.4951,
-            2389.717,
+            2389.7173,
             2348.0144,
-            2221.5322,
-            2283.7429,
+            2221.5325,
+            2283.7432,
             2263.7876,
             2284.8721,
             2228.7798,
@@ -4472,5 +4472,15 @@
       "igvYtd": -15.11,
       "spxYtd": 8.02
     }
-  ]
+  ],
+  "ai": {
+    "todaysRead": "The cohort is largely in the red, with 14 of 57 stocks above water. The median YTD return is -26.6%, trailing the S&P 500's 8.02% gain. Recovery from the May 14 trough has been modest, as 12 stocks meet the Rule of 40 threshold while remaining down YTD.",
+    "buckets": {
+      "sp500_software": "Median YTD return -26.5%, with Fortinet leading gains at 94.58%.",
+      "big_saas_outside": "Median YTD return -16.5%, outperforming the broader cohort median.",
+      "gsi": "All 11 stocks in red, with a median YTD decline of -34.8%."
+    },
+    "model": "gemma4:31b",
+    "generatedAt": "2026-07-26T21:01:13+00:00"
+  }
 }
