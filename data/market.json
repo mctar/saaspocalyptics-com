@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-01",
-  "generatedAt": "2026-08-01T14:04:34+00:00",
+  "generatedAt": "2026-08-01T21:03:34+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -264,7 +264,7 @@
             158.7811,
             152.9022,
             147.053,
-            149.2675,
+            149.2676,
             151.3133,
             150.5089,
             154.0343,
@@ -2980,7 +2980,7 @@
           "fromHighPct": -35.38,
           "fromLowPct": 42.91,
           "sparkline": [
-            80.3022,
+            80.3023,
             84.7382,
             83.4539,
             81.2211,
@@ -3159,7 +3159,7 @@
           "sparkline": [
             3110.3188,
             3176.0449,
-            3122.0764,
+            3122.0767,
             3146.5493,
             3091.3054,
             3085.418,
@@ -3275,9 +3275,9 @@
           "fromHighPct": -32.07,
           "fromLowPct": 8.69,
           "sparkline": [
-            287.7298,
+            287.7297,
             298.8046,
-            299.239,
+            299.2389,
             287.5817,
             292.4973,
             305.2403,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.34% and 18 of 57 names above water. Recovery from the May 14 trough is ongoing, though a significant gap persists between the cohort's performance and the S&P 500's 9.2% gain. The lens picture shows 14 stocks passing the Rule of 40, with 9 identified as quality on sale and 7 priced for hope.",
+    "todaysRead": "The cohort remains predominantly ownred, with 18 of 57 stocks above water. Median YTD performance is -19.34%, trailing the S&P 500's 9.2% gain. Recovery from the May 14 trough median of -28.89% is modest. Nine stocks are classified as quality on sale, while seven are priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return -19.1%, with Fortinet leading gains at 107.95%.",
-      "big_saas_outside": "Outperforming the cohort median with a -5.1% median YTD return.",
-      "gsi": "Weakest segment, all 11 names in red with a -29.2% median YTD."
+      "sp500_software": "Median YTD return of -19.1%, with 17 of 27 in the red.",
+      "big_saas_outside": "Median YTD return of -5.1%, with 11 of 19 in the red.",
+      "gsi": "All 11 stocks are in the red, median YTD return of -29.2%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-01T14:04:34+00:00"
+    "generatedAt": "2026-08-01T21:03:34+00:00"
   }
 }
