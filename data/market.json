@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-02",
-  "generatedAt": "2026-08-02T06:02:49+00:00",
+  "generatedAt": "2026-08-02T14:03:35+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 24.46,
           "sparkline": [
             623.6048,
-            646.6782,
+            646.6781,
             600.7542,
             524.9949,
             557.5695,
@@ -1202,7 +1202,7 @@
             245.5609,
             244.7759,
             246.5446,
-            249.9429,
+            249.9428,
             242.6594,
             239.44,
             218.6826,
@@ -2806,7 +2806,7 @@
             254.7015,
             276.1299,
             271.2113,
-            267.2038,
+            267.2039,
             275.0423,
             255.9459,
             236.771,
@@ -3275,9 +3275,9 @@
           "fromHighPct": -32.07,
           "fromLowPct": 8.69,
           "sparkline": [
-            287.7297,
+            287.7298,
             298.8046,
-            299.2389,
+            299.239,
             287.5817,
             292.4973,
             305.2403,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 19.34% year-to-date, with only 18 of 57 stocks above water. Recovery from the May 14 trough median of -28.89% remains incomplete, and the gap to the S&P 500's 9.2% gain is significant. Nine stocks meet the 'quality on sale' criteria, while seven are 'priced for hope'.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.34% and only 18 of 57 names above water. Recovery from the May 14 trough is evident as the median return has improved from -28.89%. The gap to the S&P 500, which is up 9.2%, remains significant. Nine stocks are classified as quality on sale, while seven are priced for hope.",
     "buckets": {
-      "sp500_software": "Median down 19.1%, with Fortinet leading gains at 107.95%.",
-      "big_saas_outside": "Median down 5.1%, led by DigitalOcean's 139.94% gain.",
-      "gsi": "All 11 stocks in red, median down 29.2%."
+      "sp500_software": "Median YTD return of -19.1% with 17 of 27 names in red.",
+      "big_saas_outside": "Median YTD return of -5.1% with 11 of 19 names in red.",
+      "gsi": "All 11 names are in red with a median YTD return of -29.2%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-02T06:02:49+00:00"
+    "generatedAt": "2026-08-02T14:03:35+00:00"
   }
 }
