@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-08-01",
-  "generatedAt": "2026-08-01T21:03:34+00:00",
+  "asOf": "2026-08-02",
+  "generatedAt": "2026-08-02T06:02:49+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -905,13 +905,13 @@
           "sparkline": [
             432.3508,
             432.2811,
-            424.2119,
+            424.212,
             401.7259,
             406.6111,
             363.1611,
             357.8978,
-            347.0825,
-            313.9404,
+            347.0826,
+            313.9403,
             334.0983,
             350.3759,
             359.4499,
@@ -1202,7 +1202,7 @@
             245.5609,
             244.7759,
             246.5446,
-            249.9428,
+            249.9429,
             242.6594,
             239.44,
             218.6826,
@@ -2806,7 +2806,7 @@
             254.7015,
             276.1299,
             271.2113,
-            267.2039,
+            267.2038,
             275.0423,
             255.9459,
             236.771,
@@ -3159,17 +3159,17 @@
           "sparkline": [
             3110.3188,
             3176.0449,
-            3122.0767,
+            3122.0764,
             3146.5493,
             3091.3054,
             3085.418,
-            3164.8005,
+            3164.8008,
             2892.8984,
-            2641.7002,
+            2641.7004,
             2644.3496,
             2525.4231,
             2564.4766,
-            2479.9915,
+            2479.9917,
             2396.5859,
             2395.0161,
             2353.804,
@@ -3177,12 +3177,12 @@
             2492.1592,
             2426.2197,
             2531.2126,
-            2474.4966,
+            2474.4968,
             2428.28,
-            2381.7693,
+            2381.7695,
             2348.0144,
             2203.8701,
-            2283.7429,
+            2283.7432,
             2263.7876,
             2246.582,
             2228.7798,
@@ -3376,9 +3376,9 @@
             11.24
           ],
           "fundamentals": {
-            "revenueGrowthPct": -1.2,
-            "operatingMarginPct": -2.2,
-            "ruleOf40": -3.4,
+            "revenueGrowthPct": -5.1,
+            "operatingMarginPct": 2.0,
+            "ruleOf40": -3.1,
             "marketCap": 1821782016
           }
         }
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains predominantly ownred, with 18 of 57 stocks above water. Median YTD performance is -19.34%, trailing the S&P 500's 9.2% gain. Recovery from the May 14 trough median of -28.89% is modest. Nine stocks are classified as quality on sale, while seven are priced for hope.",
+    "todaysRead": "The cohort median is down 19.34% year-to-date, with only 18 of 57 stocks above water. Recovery from the May 14 trough median of -28.89% remains incomplete, and the gap to the S&P 500's 9.2% gain is significant. Nine stocks meet the 'quality on sale' criteria, while seven are 'priced for hope'.",
     "buckets": {
-      "sp500_software": "Median YTD return of -19.1%, with 17 of 27 in the red.",
-      "big_saas_outside": "Median YTD return of -5.1%, with 11 of 19 in the red.",
-      "gsi": "All 11 stocks are in the red, median YTD return of -29.2%."
+      "sp500_software": "Median down 19.1%, with Fortinet leading gains at 107.95%.",
+      "big_saas_outside": "Median down 5.1%, led by DigitalOcean's 139.94% gain.",
+      "gsi": "All 11 stocks in red, median down 29.2%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-01T21:03:34+00:00"
+    "generatedAt": "2026-08-02T06:02:49+00:00"
   }
 }
