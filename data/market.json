@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-02",
-  "generatedAt": "2026-08-02T14:03:35+00:00",
+  "generatedAt": "2026-08-02T21:01:35+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 24.46,
           "sparkline": [
             623.6048,
-            646.6781,
+            646.6782,
             600.7542,
             524.9949,
             557.5695,
@@ -264,7 +264,7 @@
             158.7811,
             152.9022,
             147.053,
-            149.2676,
+            149.2675,
             151.3133,
             150.5089,
             154.0343,
@@ -905,13 +905,13 @@
           "sparkline": [
             432.3508,
             432.2811,
-            424.212,
+            424.2119,
             401.7259,
             406.6111,
             363.1611,
             357.8978,
-            347.0826,
-            313.9403,
+            347.0825,
+            313.9404,
             334.0983,
             350.3759,
             359.4499,
@@ -1202,7 +1202,7 @@
             245.5609,
             244.7759,
             246.5446,
-            249.9428,
+            249.9429,
             242.6594,
             239.44,
             218.6826,
@@ -2806,7 +2806,7 @@
             254.7015,
             276.1299,
             271.2113,
-            267.2039,
+            267.2038,
             275.0423,
             255.9459,
             236.771,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.34% and only 18 of 57 names above water. Recovery from the May 14 trough is evident as the median return has improved from -28.89%. The gap to the S&P 500, which is up 9.2%, remains significant. Nine stocks are classified as quality on sale, while seven are priced for hope.",
+    "todaysRead": "The cohort remains largely in the red with a median YTD return of -19.34% and only 18 of 57 names above water. Recovery from the May 14 trough is continuing, though a gap persists between the S&P 500's 9.2% gain and the cohort's performance. Nine stocks are classified as quality on sale, while seven are priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return of -19.1% with 17 of 27 names in red.",
-      "big_saas_outside": "Median YTD return of -5.1% with 11 of 19 names in red.",
-      "gsi": "All 11 names are in red with a median YTD return of -29.2%."
+      "sp500_software": "Median YTD return of -19.1%, with 17 of 27 names in red.",
+      "big_saas_outside": "Median YTD return of -5.1%, with 11 of 19 names in red.",
+      "gsi": "All 11 names are in red, median YTD return of -29.2%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-02T14:03:35+00:00"
+    "generatedAt": "2026-08-02T21:01:35+00:00"
   }
 }
