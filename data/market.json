@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-08-08",
-  "generatedAt": "2026-08-08T21:00:35+00:00",
+  "asOf": "2026-08-09",
+  "generatedAt": "2026-08-09T06:02:56+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -886,9 +886,9 @@
             149.07
           ],
           "fundamentals": {
-            "revenueGrowthPct": 31.7,
-            "operatingMarginPct": 9.4,
-            "ruleOf40": 41.1,
+            "revenueGrowthPct": 27.6,
+            "operatingMarginPct": 11.9,
+            "ruleOf40": 39.5,
             "marketCap": 37829177344
           }
         },
@@ -1122,9 +1122,9 @@
             29.17
           ],
           "fundamentals": {
-            "revenueGrowthPct": 27.0,
-            "operatingMarginPct": 63.4,
-            "ruleOf40": 90.4,
+            "revenueGrowthPct": 6.3,
+            "operatingMarginPct": 35.6,
+            "ruleOf40": 41.9,
             "marketCap": 17460494336
           }
         },
@@ -1240,9 +1240,9 @@
             110.54
           ],
           "fundamentals": {
-            "revenueGrowthPct": 5.8,
-            "operatingMarginPct": 10.6,
-            "ruleOf40": 16.4,
+            "revenueGrowthPct": 5.4,
+            "operatingMarginPct": 7.5,
+            "ruleOf40": 12.9,
             "marketCap": 15917760512
           }
         },
@@ -1358,9 +1358,9 @@
             300.27
           ],
           "fundamentals": {
-            "revenueGrowthPct": 33.5,
-            "operatingMarginPct": -9.7,
-            "ruleOf40": 23.8,
+            "revenueGrowthPct": 35.9,
+            "operatingMarginPct": -7.9,
+            "ruleOf40": 28.0,
             "marketCap": 106920050688
           }
         },
@@ -1418,8 +1418,8 @@
           ],
           "fundamentals": {
             "revenueGrowthPct": 35.6,
-            "operatingMarginPct": 0.5,
-            "ruleOf40": 36.1,
+            "operatingMarginPct": 0.7,
+            "ruleOf40": 36.3,
             "marketCap": 83998416896
           }
         },
@@ -2426,9 +2426,9 @@
             34.81
           ],
           "fundamentals": {
-            "revenueGrowthPct": 0.8,
-            "operatingMarginPct": 27.5,
-            "ruleOf40": 28.3,
+            "revenueGrowthPct": 0.9,
+            "operatingMarginPct": 26.7,
+            "ruleOf40": 27.6,
             "marketCap": 8121196032
           }
         },
@@ -2485,9 +2485,9 @@
             89.52
           ],
           "fundamentals": {
-            "revenueGrowthPct": 25.8,
-            "operatingMarginPct": -7.4,
-            "ruleOf40": 18.4,
+            "revenueGrowthPct": 28.7,
+            "operatingMarginPct": -7.1,
+            "ruleOf40": 21.6,
             "marketCap": 10842637312
           }
         },
@@ -2603,9 +2603,9 @@
             241.28
           ],
           "fundamentals": {
-            "revenueGrowthPct": 20.0,
-            "operatingMarginPct": 7.7,
-            "ruleOf40": 27.7,
+            "revenueGrowthPct": 22.0,
+            "operatingMarginPct": 5.6,
+            "ruleOf40": 27.6,
             "marketCap": 36619997184
           }
         },
@@ -2787,8 +2787,8 @@
           ],
           "fundamentals": {
             "revenueGrowthPct": 4.5,
-            "operatingMarginPct": 11.9,
-            "ruleOf40": 16.4,
+            "operatingMarginPct": 10.9,
+            "ruleOf40": 15.4,
             "marketCap": 5026119680
           }
         },
@@ -2805,15 +2805,15 @@
           "sparkline": [
             254.7015,
             276.1299,
-            282.7143,
-            267.2039,
+            282.7142,
+            267.2038,
             275.0423,
             258.317,
             228.8639,
             225.7775,
             219.0952,
             197.1181,
-            204.5059,
+            204.5058,
             209.6792,
             197.412,
             194.649,
@@ -3140,8 +3140,8 @@
             34.29
           ],
           "fundamentals": {
-            "revenueGrowthPct": 6.7,
-            "operatingMarginPct": 15.4,
+            "revenueGrowthPct": 7.1,
+            "operatingMarginPct": 15.0,
             "ruleOf40": 22.1,
             "marketCap": 5761707520
           }
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort median is down 6.96% year-to-date, trailing the S&P 500's 13.11% gain. Recovery from the May 14 trough of -28.89% remains incomplete. Seven stocks are classified as quality on sale, while nine are priced for hope.",
+    "todaysRead": "The cohort median is down 6.96% year-to-date, trailing the S&P 500's 13.11% gain. Recovery from the May 14 trough median of -28.89% remains uneven. Six stocks pass the 'quality on sale' criteria, while eight are 'priced for hope'.",
     "buckets": {
-      "sp500_software": "Median YTD return is -7.0%, with 15 of 27 names trailing",
-      "big_saas_outside": "Positive median YTD return of 3.5% across 19 stocks",
-      "gsi": "Significant decline with a median YTD return of -26.3%"
+      "sp500_software": "Median YTD return is -7.0%, with 15 of 27 stocks in red.",
+      "big_saas_outside": "Positive median YTD return of 3.5% across 19 companies.",
+      "gsi": "Significant decline with a median YTD return of -26.3%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-08T21:00:35+00:00"
+    "generatedAt": "2026-08-09T06:02:56+00:00"
   }
 }
