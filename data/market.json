@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-09",
-  "generatedAt": "2026-08-09T14:04:35+00:00",
+  "generatedAt": "2026-08-09T21:02:35+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 28.08,
           "sparkline": [
             623.6048,
-            646.6781,
+            646.6782,
             562.3633,
             524.9949,
             557.5695,
@@ -1143,7 +1143,7 @@
             245.5609,
             247.727,
             246.5446,
-            249.9428,
+            249.9429,
             242.6793,
             241.0795,
             214.3105,
@@ -1262,7 +1262,7 @@
             153.7405,
             146.679,
             146.6492,
-            134.0182,
+            134.0181,
             130.8753,
             118.0653,
             123.5453,
@@ -3218,14 +3218,14 @@
           "sparkline": [
             3110.3188,
             3176.0449,
-            3149.446,
+            3149.4463,
             3104.2581,
             3091.3054,
             3085.418,
             2942.8438,
             2928.6157,
             2655.8303,
-            2635.8127,
+            2635.813,
             2579.9802,
             2539.2588,
             2465.96,
@@ -3233,13 +3233,13 @@
             2345.7578,
             2344.9727,
             2427.4951,
-            2540.436,
+            2540.4363,
             2528.563,
-            2490.8833,
+            2490.8835,
             2398.8428,
             2385.6943,
-            2349.4863,
-            2230.1675,
+            2349.4861,
+            2230.1672,
             2283.449,
             2295.6133,
             2246.582,
@@ -4476,11 +4476,11 @@
   "ai": {
     "todaysRead": "The cohort median is down 6.96% year-to-date, trailing the S&P 500's 13.11% gain. Recovery from the May 14 trough of -28.89% remains partial. Six stocks are classified as quality on sale, while eight are priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return is -7.0%, with 15 of 27 stocks in red.",
+      "sp500_software": "Median YTD return is -7.0%, with 15 of 27 stocks in the red.",
       "big_saas_outside": "Positive median YTD return of 3.5% across 19 companies.",
       "gsi": "Significant decline with a median YTD return of -26.3%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-09T14:04:35+00:00"
+    "generatedAt": "2026-08-09T21:02:35+00:00"
   }
 }
