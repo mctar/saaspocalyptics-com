@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-15",
-  "generatedAt": "2026-08-15T14:04:35+00:00",
+  "generatedAt": "2026-08-15T21:04:35+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 36.12,
           "sparkline": [
             623.6048,
-            646.6782,
+            646.6781,
             562.3633,
             520.9949,
             541.3219,
@@ -382,7 +382,7 @@
             184.4912,
             184.3519,
             190.7792,
-            191.9731,
+            191.9732,
             201.0868,
             198.2711,
             193.3561,
@@ -1023,7 +1023,7 @@
           "sparkline": [
             470.8432,
             475.9903,
-            457.3433,
+            457.3434,
             442.141,
             478.4493,
             421.493,
@@ -2923,13 +2923,13 @@
           "sparkline": [
             254.7015,
             276.1299,
-            282.7142,
-            275.0522,
+            282.7143,
+            275.0521,
             270.2314,
             261.4034,
             235.7618,
             217.5667,
-            210.6101,
+            210.61,
             187.6335,
             201.7722,
             210.6591,
@@ -3100,7 +3100,7 @@
           "sparkline": [
             45.4214,
             47.1132,
-            46.9352,
+            46.9351,
             45.2433,
             44.7882,
             43.6604,
@@ -4474,14 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort remains largely below the S&P 500, which is up 13.52% year-to-date. Recovery from the May 13 trough, where the median YTD return was -28.3%, has been partial, with 26 of 57 names above water. Less than a quarter of the umapped cohort is categorized as 'quality on sale' or 'priced for hope'.",
-    "sinceLastRun": "Dassault Systèmes and Capgemini saw the largest gains since the previous run.",
+    "todaysRead": "The cohort is recovering from a May trough of -28.3% median YTD. Breadth is limited, with 26 of 57 stocks above water. The median YTD return of -6.1% trails the S&P 500's 13.52% gain.",
     "buckets": {
-      "sp500_software": "Median YTD return of -3.5% with 14 of 27 names in red.",
-      "big_saas_outside": "Median YTD return of 15.2% with 6 of 19 names in red.",
-      "gsi": "All 11 names in red with a median YTD return of -26.7%."
+      "sp500_software": "Median YTD return of -3.5% with 14 of 27 stocks in red.",
+      "big_saas_outside": "Median YTD return of 15.2% with 6 of 19 stocks in red.",
+      "gsi": "All 11 stocks in red with a median YTD return of -26.7%."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-15T14:04:35+00:00"
+    "generatedAt": "2026-08-15T21:04:35+00:00"
   }
 }
