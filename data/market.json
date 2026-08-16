@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-08-15",
-  "generatedAt": "2026-08-15T21:04:35+00:00",
+  "asOf": "2026-08-16",
+  "generatedAt": "2026-08-16T06:03:00+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 36.12,
           "sparkline": [
             623.6048,
-            646.6781,
+            646.6782,
             562.3633,
             520.9949,
             541.3219,
@@ -34,7 +34,7 @@
             443.4492,
             429.2164,
             425.822,
-            414.2393,
+            414.2392,
             349.3923,
             385.4028,
             406.8777,
@@ -1023,7 +1023,7 @@
           "sparkline": [
             470.8432,
             475.9903,
-            457.3434,
+            457.3433,
             442.141,
             478.4493,
             421.493,
@@ -2980,7 +2980,7 @@
           "fromHighPct": -31.37,
           "fromLowPct": 51.79,
           "sparkline": [
-            80.3023,
+            80.3022,
             84.7382,
             85.6571,
             83.0192,
@@ -4474,13 +4474,13 @@
     }
   ],
   "ai": {
-    "todaysRead": "The cohort is recovering from a May trough of -28.3% median YTD. Breadth is limited, with 26 of 57 stocks above water. The median YTD return of -6.1% trails the S&P 500's 13.52% gain.",
+    "todaysRead": "The cohort is recovering from a May trough of -28.3% median YTD. Breadth is limited, with 26 of 57 names above water. The median YTD return of -6.1% trails the S&P 500's 13.52% significantly. Six names are classified as quality on sale, while 10 are priced for hope.",
     "buckets": {
-      "sp500_software": "Median YTD return of -3.5% with 14 of 27 stocks in red.",
-      "big_saas_outside": "Median YTD return of 15.2% with 6 of 19 stocks in red.",
-      "gsi": "All 11 stocks in red with a median YTD return of -26.7%."
+      "sp500_software": "Median YTD -3.5% with 14 of 27 names in red.",
+      "big_saas_outside": "Median YTD 15.2% with 6 of 19 names in red.",
+      "gsi": "Median YTD -26.7% with all 11 names in red."
     },
     "model": "gemma4:31b",
-    "generatedAt": "2026-08-15T21:04:35+00:00"
+    "generatedAt": "2026-08-16T06:03:00+00:00"
   }
 }
