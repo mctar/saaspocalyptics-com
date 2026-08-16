@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-16",
-  "generatedAt": "2026-08-16T06:03:00+00:00",
+  "generatedAt": "2026-08-16T14:04:35+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -19,7 +19,7 @@
           "fromLowPct": 36.12,
           "sparkline": [
             623.6048,
-            646.6782,
+            646.6781,
             562.3633,
             520.9949,
             541.3219,
@@ -382,7 +382,7 @@
             184.4912,
             184.3519,
             190.7792,
-            191.9732,
+            191.9731,
             201.0868,
             198.2711,
             193.3561,
@@ -1023,7 +1023,7 @@
           "sparkline": [
             470.8432,
             475.9903,
-            457.3433,
+            457.3434,
             442.141,
             478.4493,
             421.493,
@@ -1604,7 +1604,7 @@
     },
     "big_saas_outside": {
       "label": "Big SaaS Outside the Index",
-      "blurb": "Heavyweights the S&P 500 won't yet admit — Snowflake's home turf.",
+      "blurb": "Heavyweights the S&P 500 won't yet admit \u2014 Snowflake's home turf.",
       "members": [
         {
           "ticker": "HUBS",
@@ -1844,7 +1844,7 @@
         },
         {
           "ticker": "DSY.PA",
-          "name": "Dassault Systèmes",
+          "name": "Dassault Syst\u00e8mes",
           "currency": "EUR",
           "baseline": 23.09,
           "last": 21.68,
@@ -2923,13 +2923,13 @@
           "sparkline": [
             254.7015,
             276.1299,
-            282.7143,
-            275.0521,
+            282.7142,
+            275.0522,
             270.2314,
             261.4034,
             235.7618,
             217.5667,
-            210.61,
+            210.6101,
             187.6335,
             201.7722,
             210.6591,
@@ -3337,7 +3337,7 @@
             285.6804,
             296.6764,
             302.8604,
-            291.5998,
+            291.5999,
             287.9933,
             308.4467,
             292.9621,
@@ -4472,15 +4472,5 @@
       "igvYtd": 1.44,
       "spxYtd": 13.52
     }
-  ],
-  "ai": {
-    "todaysRead": "The cohort is recovering from a May trough of -28.3% median YTD. Breadth is limited, with 26 of 57 names above water. The median YTD return of -6.1% trails the S&P 500's 13.52% significantly. Six names are classified as quality on sale, while 10 are priced for hope.",
-    "buckets": {
-      "sp500_software": "Median YTD -3.5% with 14 of 27 names in red.",
-      "big_saas_outside": "Median YTD 15.2% with 6 of 19 names in red.",
-      "gsi": "Median YTD -26.7% with all 11 names in red."
-    },
-    "model": "gemma4:31b",
-    "generatedAt": "2026-08-16T06:03:00+00:00"
-  }
+  ]
 }
