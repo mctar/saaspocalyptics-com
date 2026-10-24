@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-23",
-  "generatedAt": "2026-10-23T21:03:35+00:00",
+  "asOf": "2026-10-24",
+  "generatedAt": "2026-10-24T06:03:49+00:00",
   "baselineDate": "2026-01-01",
   "buckets": {
     "sp500_software": {
@@ -63,7 +63,7 @@
             "revenueGrowthPct": 25.7,
             "operatingMarginPct": 53.8,
             "ruleOf40": 79.5,
-            "marketCap": 17780686848
+            "marketCap": 17608769536
           }
         },
         {
@@ -80,14 +80,14 @@
             620.7095,
             639.082,
             538.7,
-            538.8087,
+            538.8086,
             428.8439,
-            416.2973,
+            416.2974,
             384.8619,
             376.6227,
             461.1487,
             429.8713,
-            449.7382,
+            449.7383,
             427.3224,
             417.3742,
             366.1031,
@@ -99,7 +99,7 @@
             304.9505,
             308.627,
             281.6528,
-            264.5883,
+            264.5884,
             265.3018,
             269.6819,
             288.4147,
@@ -122,7 +122,7 @@
             "revenueGrowthPct": 13.7,
             "operatingMarginPct": 17.6,
             "ruleOf40": 31.3,
-            "marketCap": 94842052608
+            "marketCap": 91766177792
           }
         },
         {
@@ -151,15 +151,15 @@
             144.8292,
             154.509,
             176.3123,
-            171.7252,
+            171.7253,
             179.0029,
             192.4562,
             180.1646,
-            189.5968,
+            189.5967,
             228.6857,
             199.8232,
             182.9743,
-            147.4697,
+            147.4696,
             142.7337,
             131.0553,
             120.9327,
@@ -181,7 +181,7 @@
             "revenueGrowthPct": 29.6,
             "operatingMarginPct": 35.6,
             "ruleOf40": 65.2,
-            "marketCap": 380574629888
+            "marketCap": 382454169600
           }
         },
         {
@@ -240,7 +240,7 @@
             "revenueGrowthPct": 12.9,
             "operatingMarginPct": 34.8,
             "ruleOf40": 47.7,
-            "marketCap": 105298059264
+            "marketCap": 102678749184
           }
         },
         {
@@ -299,7 +299,7 @@
             "revenueGrowthPct": 14.9,
             "operatingMarginPct": -5.6,
             "ruleOf40": 9.3,
-            "marketCap": 3454677248
+            "marketCap": 3429149184
           }
         },
         {
@@ -358,7 +358,7 @@
             "revenueGrowthPct": 16.1,
             "operatingMarginPct": 29.2,
             "ruleOf40": 45.3,
-            "marketCap": 53284548608
+            "marketCap": 52709797888
           }
         },
         {
@@ -417,7 +417,7 @@
             "revenueGrowthPct": 8.2,
             "operatingMarginPct": 14.7,
             "ruleOf40": 22.9,
-            "marketCap": 16071719936
+            "marketCap": 15977119744
           }
         },
         {
@@ -476,7 +476,7 @@
             "revenueGrowthPct": 42.4,
             "operatingMarginPct": 14.5,
             "ruleOf40": 56.9,
-            "marketCap": 80962650112
+            "marketCap": 82430590976
           }
         },
         {
@@ -535,7 +535,7 @@
             "revenueGrowthPct": 6.3,
             "operatingMarginPct": 35.6,
             "ruleOf40": 41.9,
-            "marketCap": 14898830336
+            "marketCap": 14892844032
           }
         },
         {
@@ -594,7 +594,7 @@
             "revenueGrowthPct": -0.6,
             "operatingMarginPct": 22.6,
             "ruleOf40": 22.0,
-            "marketCap": 14804645888
+            "marketCap": 14541945856
           }
         },
         {
@@ -653,7 +653,7 @@
             "revenueGrowthPct": 10.8,
             "operatingMarginPct": 21.4,
             "ruleOf40": 32.2,
-            "marketCap": 205988659200
+            "marketCap": 204573114368
           }
         },
         {
@@ -709,10 +709,10 @@
             438.14
           ],
           "fundamentals": {
-            "revenueGrowthPct": 8.5,
-            "operatingMarginPct": 27.7,
-            "ruleOf40": 36.2,
-            "marketCap": 43143528448
+            "revenueGrowthPct": 7.6,
+            "operatingMarginPct": 28.7,
+            "ruleOf40": 36.3,
+            "marketCap": 43332427776
           }
         },
         {
@@ -771,7 +771,7 @@
             "revenueGrowthPct": 24.2,
             "operatingMarginPct": 28.6,
             "ruleOf40": 52.8,
-            "marketCap": 85406425088
+            "marketCap": 87293001728
           }
         },
         {
@@ -889,7 +889,7 @@
             "revenueGrowthPct": 24.0,
             "operatingMarginPct": 4.1,
             "ruleOf40": 28.1,
-            "marketCap": 162316337152
+            "marketCap": 164342710272
           }
         },
         {
@@ -948,7 +948,7 @@
             "revenueGrowthPct": 5.4,
             "operatingMarginPct": 7.6,
             "ruleOf40": 13.0,
-            "marketCap": 13096894464
+            "marketCap": 13441814528
           }
         },
         {
@@ -966,7 +966,7 @@
             476.2585,
             456.9609,
             477.5503,
-            408.6176,
+            408.6177,
             410.6647,
             397.0809,
             398.9831,
@@ -1007,7 +1007,7 @@
             "revenueGrowthPct": 17.7,
             "operatingMarginPct": 45.1,
             "ruleOf40": 62.8,
-            "marketCap": 3869303373824
+            "marketCap": 3894773022720
           }
         },
         {
@@ -1066,7 +1066,7 @@
             "revenueGrowthPct": -6.8,
             "operatingMarginPct": 28.2,
             "ruleOf40": 21.4,
-            "marketCap": 21074651136
+            "marketCap": 21052925952
           }
         },
         {
@@ -1125,7 +1125,7 @@
             "revenueGrowthPct": 92.8,
             "operatingMarginPct": 47.1,
             "ruleOf40": 139.9,
-            "marketCap": 471456055296
+            "marketCap": 472801738752
           }
         },
         {
@@ -1184,7 +1184,7 @@
             "revenueGrowthPct": 6.0,
             "operatingMarginPct": 68.2,
             "ruleOf40": 74.2,
-            "marketCap": 27534936064
+            "marketCap": 26938703872
           }
         },
         {
@@ -1243,7 +1243,7 @@
             "revenueGrowthPct": 27.6,
             "operatingMarginPct": 12.3,
             "ruleOf40": 39.9,
-            "marketCap": 56490459136
+            "marketCap": 57616924672
           }
         },
         {
@@ -1302,7 +1302,7 @@
             "revenueGrowthPct": 35.9,
             "operatingMarginPct": -7.6,
             "ruleOf40": 28.3,
-            "marketCap": 108109357056
+            "marketCap": 115985850368
           }
         },
         {
@@ -1319,7 +1319,7 @@
             151.3242,
             156.0605,
             147.3623,
-            141.1863,
+            141.1862,
             123.4523,
             124.058,
             123.3431,
@@ -1361,7 +1361,7 @@
             "revenueGrowthPct": 9.8,
             "operatingMarginPct": 31.7,
             "ruleOf40": 41.5,
-            "marketCap": 12286973952
+            "marketCap": 12376215552
           }
         },
         {
@@ -1420,7 +1420,7 @@
             "revenueGrowthPct": 35.6,
             "operatingMarginPct": 0.7,
             "ruleOf40": 36.3,
-            "marketCap": 92551585792
+            "marketCap": 96824573952
           }
         },
         {
@@ -1479,7 +1479,7 @@
             "revenueGrowthPct": 34.5,
             "operatingMarginPct": 5.4,
             "ruleOf40": 39.9,
-            "marketCap": 290324578304
+            "marketCap": 311289905152
           }
         },
         {
@@ -1538,7 +1538,7 @@
             "revenueGrowthPct": 25.8,
             "operatingMarginPct": -2.3,
             "ruleOf40": 23.5,
-            "marketCap": 243635060736
+            "marketCap": 263734902784
           }
         },
         {
@@ -1597,7 +1597,7 @@
             "revenueGrowthPct": 25.6,
             "operatingMarginPct": 33.6,
             "ruleOf40": 59.2,
-            "marketCap": 126917787648
+            "marketCap": 132061126656
           }
         }
       ]
@@ -1662,7 +1662,7 @@
             "revenueGrowthPct": 19.8,
             "operatingMarginPct": 4.9,
             "ruleOf40": 24.7,
-            "marketCap": 13323750400
+            "marketCap": 13507756032
           }
         },
         {
@@ -1721,7 +1721,7 @@
             "revenueGrowthPct": 21.9,
             "operatingMarginPct": 5.5,
             "ruleOf40": 27.4,
-            "marketCap": 4517412352
+            "marketCap": 4503461888
           }
         },
         {
@@ -1780,7 +1780,7 @@
             "revenueGrowthPct": 13.4,
             "operatingMarginPct": 8.9,
             "ruleOf40": 22.3,
-            "marketCap": 7264906240
+            "marketCap": 7363926016
           }
         },
         {
@@ -1839,7 +1839,7 @@
             "revenueGrowthPct": 15.8,
             "operatingMarginPct": 2.3,
             "ruleOf40": 18.1,
-            "marketCap": 9465298944
+            "marketCap": 9573186560
           }
         },
         {
@@ -1898,7 +1898,7 @@
             "revenueGrowthPct": 30.5,
             "operatingMarginPct": 3.7,
             "ruleOf40": 34.2,
-            "marketCap": 29180729344
+            "marketCap": 29893652480
           }
         },
         {
@@ -1957,7 +1957,7 @@
             "revenueGrowthPct": 23.1,
             "operatingMarginPct": 7.4,
             "ruleOf40": 30.5,
-            "marketCap": 19316758528
+            "marketCap": 18906380288
           }
         },
         {
@@ -2016,7 +2016,7 @@
             "revenueGrowthPct": 13.8,
             "operatingMarginPct": 9.7,
             "ruleOf40": 23.5,
-            "marketCap": 5046565888
+            "marketCap": 5049554432
           }
         },
         {
@@ -2024,58 +2024,58 @@
           "name": "Dassault Syst\u00e8mes",
           "currency": "EUR",
           "baseline": 23.09,
-          "last": 24.44,
-          "lastDate": "2026-10-23",
-          "ytdPct": 5.85,
-          "fromHighPct": 0.0,
-          "fromLowPct": 55.19,
+          "last": 24.06,
+          "lastDate": "2026-10-22",
+          "ytdPct": 4.2,
+          "fromHighPct": -1.48,
+          "fromLowPct": 52.78,
           "sparkline": [
             23.0892,
             24.4213,
             22.961,
             23.6911,
             22.8623,
-            22.142,
+            22.0926,
             16.5078,
             17.1985,
             18.0915,
             17.7955,
             17.6968,
             16.567,
-            17.386,
+            17.2873,
             17.3071,
             18.6737,
-            18.5454,
+            19.093,
             19.5074,
             18.8217,
-            19.7196,
-            18.65,
+            19.9712,
+            19.77,
             20.16,
             18.205,
-            17.23,
-            17.93,
+            17.08,
+            17.59,
             18.495,
-            18.66,
-            18.145,
+            18.235,
+            17.885,
             20.41,
-            21.31,
-            22.1,
-            21.9,
-            22.54,
-            22.13,
-            20.17,
+            20.75,
+            22.08,
+            21.37,
+            22.65,
+            22.25,
+            20.46,
             20.9,
-            21.17,
-            20.57,
-            21.59,
-            23.1,
-            24.44
+            21.21,
+            20.49,
+            21.61,
+            23.16,
+            24.06
           ],
           "fundamentals": {
             "revenueGrowthPct": 2.2,
             "operatingMarginPct": 23.4,
             "ruleOf40": 25.6,
-            "marketCap": 31616862208
+            "marketCap": 32116215808
           }
         },
         {
@@ -2134,7 +2134,7 @@
             "revenueGrowthPct": 24.9,
             "operatingMarginPct": -1.0,
             "ruleOf40": 23.9,
-            "marketCap": 38767886336
+            "marketCap": 41603407872
           }
         },
         {
@@ -2193,7 +2193,7 @@
             "revenueGrowthPct": 29.9,
             "operatingMarginPct": 1.0,
             "ruleOf40": 30.9,
-            "marketCap": 25637793792
+            "marketCap": 26305384448
           }
         },
         {
@@ -2252,7 +2252,7 @@
             "revenueGrowthPct": 0.9,
             "operatingMarginPct": 26.1,
             "ruleOf40": 27.0,
-            "marketCap": 8149749248
+            "marketCap": 8225854976
           }
         },
         {
@@ -2311,7 +2311,7 @@
             "revenueGrowthPct": 15.1,
             "operatingMarginPct": -0.6,
             "ruleOf40": 14.5,
-            "marketCap": 10311193600
+            "marketCap": 10754256896
           }
         },
         {
@@ -2370,7 +2370,7 @@
             "revenueGrowthPct": 9.2,
             "operatingMarginPct": 10.2,
             "ruleOf40": 19.4,
-            "marketCap": 5869448704
+            "marketCap": 5924328960
           }
         },
         {
@@ -2429,7 +2429,7 @@
             "revenueGrowthPct": 35.1,
             "operatingMarginPct": -17.0,
             "ruleOf40": 18.1,
-            "marketCap": 110765088768
+            "marketCap": 114811699200
           }
         },
         {
@@ -2488,7 +2488,7 @@
             "revenueGrowthPct": 21.3,
             "operatingMarginPct": -11.5,
             "ruleOf40": 9.8,
-            "marketCap": 9085515776
+            "marketCap": 9377092608
           }
         },
         {
@@ -2547,7 +2547,7 @@
             "revenueGrowthPct": 28.7,
             "operatingMarginPct": -7.1,
             "ruleOf40": 21.6,
-            "marketCap": 11576760320
+            "marketCap": 12406578176
           }
         },
         {
@@ -2606,7 +2606,7 @@
             "revenueGrowthPct": 22.0,
             "operatingMarginPct": 7.8,
             "ruleOf40": 29.8,
-            "marketCap": 38951284736
+            "marketCap": 40204455936
           }
         },
         {
@@ -2665,7 +2665,7 @@
             "revenueGrowthPct": 28.6,
             "operatingMarginPct": 10.4,
             "ruleOf40": 39.0,
-            "marketCap": 10755545088
+            "marketCap": 10898172928
           }
         },
         {
@@ -2724,7 +2724,7 @@
             "revenueGrowthPct": 10.6,
             "operatingMarginPct": 13.3,
             "ruleOf40": 23.9,
-            "marketCap": 35196698624
+            "marketCap": 37245599744
           }
         }
       ]
@@ -2789,7 +2789,7 @@
             "revenueGrowthPct": 4.5,
             "operatingMarginPct": 10.9,
             "ruleOf40": 15.4,
-            "marketCap": 7153566208
+            "marketCap": 7028726272
           }
         },
         {
@@ -2848,7 +2848,7 @@
             "revenueGrowthPct": 2.9,
             "operatingMarginPct": 21.2,
             "ruleOf40": 24.1,
-            "marketCap": 53545775104
+            "marketCap": 50021961728
           }
         },
         {
@@ -2856,19 +2856,19 @@
           "name": "Infosys (NSE)",
           "currency": "INR",
           "baseline": 1595.28,
-          "last": 1153.35,
-          "lastDate": "2026-10-22",
-          "ytdPct": -27.7,
-          "fromHighPct": -30.27,
-          "fromLowPct": 17.06,
+          "last": 1153.8,
+          "lastDate": "2026-10-23",
+          "ytdPct": -27.67,
+          "fromHighPct": -30.24,
+          "fromLowPct": 17.1,
           "sparkline": [
             1595.2792,
             1579.1287,
             1565.9146,
             1628.2654,
             1606.2419,
-            1475.178,
-            1340.101,
+            1465.4877,
+            1336.6752,
             1299.3822,
             1261.5997,
             1268.1578,
@@ -2877,37 +2877,37 @@
             1273.2478,
             1265.1235,
             1284.7977,
-            1145.5118,
-            1153.1466,
-            1116.1473,
-            1171.5485,
-            1142.9668,
+            1127.6973,
+            1142.4774,
+            1099.3115,
+            1168.4161,
+            1135.3322,
             1175.8552,
             1114.6,
             1127.5,
             1041.2,
             1047.2,
-            1068.0,
-            1096.5,
-            1040.9,
-            1130.1,
-            1175.1,
-            1169.2,
-            1121.0,
-            1144.0,
+            1102.6,
+            1087.1,
+            1079.2,
+            1180.0,
+            1183.0,
+            1139.9,
+            1130.0,
+            1133.8,
             1087.5,
             1077.0,
-            1029.4,
-            1015.4,
-            992.0,
-            1088.0,
-            1153.35
+            1020.5,
+            994.1,
+            997.0,
+            1110.0,
+            1153.8
           ],
           "fundamentals": {
             "revenueGrowthPct": 2.9,
             "operatingMarginPct": 21.2,
             "ruleOf40": 24.1,
-            "marketCap": 4721708367872
+            "marketCap": 4673306624000
           }
         },
         {
@@ -2966,7 +2966,7 @@
             "revenueGrowthPct": 9.1,
             "operatingMarginPct": 16.2,
             "ruleOf40": 25.3,
-            "marketCap": 21666627584
+            "marketCap": 20875151360
           }
         },
         {
@@ -2974,58 +2974,58 @@
           "name": "Tata Consultancy Services",
           "currency": "INR",
           "baseline": 3093.87,
-          "last": 2506.9,
-          "lastDate": "2026-10-22",
-          "ytdPct": -18.97,
-          "fromHighPct": -20.65,
-          "fromLowPct": 27.81,
+          "last": 2530.0,
+          "lastDate": "2026-10-23",
+          "ytdPct": -18.23,
+          "fromHighPct": -19.92,
+          "fromLowPct": 28.99,
           "sparkline": [
-            3093.8718,
-            3071.344,
+            3093.8716,
+            3071.3438,
             3060.4155,
             3074.9587,
             3049.0935,
-            2871.1589,
-            2627.731,
+            2877.6008,
+            2641.7864,
             2612.2119,
-            2550.916,
+            2550.9158,
             2452.9202,
             2334.4272,
             2341.3572,
-            2392.0144,
+            2392.0142,
             2463.8518,
             2517.8276,
-            2388.9885,
-            2369.1748,
-            2245.2158,
-            2271.3743,
-            2251.8169,
+            2386.1577,
+            2377.0806,
+            2218.3743,
+            2271.6667,
+            2259.7312,
             2216.9941,
             2112.7231,
             2179.698,
             2072.261,
             2071.074,
-            2046.8364,
-            2257.0017,
-            2242.3794,
-            2353.0908,
-            2439.7302,
-            2348.5151,
-            2289.8271,
-            2329.6157,
+            2158.1316,
+            2239.1963,
+            2283.4612,
+            2460.6191,
+            2412.873,
+            2300.9678,
+            2272.022,
+            2386.6128,
             2257.9963,
             2239.0969,
-            2093.8689,
-            2021.6528,
-            2069.2996,
-            2304.8999,
-            2506.8999
+            2078.5503,
+            2039.7566,
+            2065.0222,
+            2350.0,
+            2530.0
           ],
           "fundamentals": {
             "revenueGrowthPct": 11.2,
             "operatingMarginPct": 24.0,
             "ruleOf40": 35.2,
-            "marketCap": 9264475144192
+            "marketCap": 9153761247232
           }
         },
         {
@@ -3084,7 +3084,7 @@
             "revenueGrowthPct": 4.5,
             "operatingMarginPct": 17.5,
             "ruleOf40": 22.0,
-            "marketCap": 34869559296
+            "marketCap": 33365420032
           }
         },
         {
@@ -3140,10 +3140,10 @@
             253.56
           ],
           "fundamentals": {
-            "revenueGrowthPct": 1.1,
-            "operatingMarginPct": 16.5,
-            "ruleOf40": 17.6,
-            "marketCap": 237521502208
+            "revenueGrowthPct": 4.7,
+            "operatingMarginPct": 16.3,
+            "ruleOf40": 21.0,
+            "marketCap": 239644835840
           }
         },
         {
@@ -3202,7 +3202,7 @@
             "revenueGrowthPct": 7.1,
             "operatingMarginPct": 15.0,
             "ruleOf40": 22.1,
-            "marketCap": 6986744320
+            "marketCap": 6827878912
           }
         },
         {
@@ -3210,58 +3210,58 @@
           "name": "Capgemini",
           "currency": "EUR",
           "baseline": 136.36,
-          "last": 123.95,
-          "lastDate": "2026-10-23",
-          "ytdPct": -9.1,
-          "fromHighPct": -15.19,
-          "fromLowPct": 44.03,
+          "last": 126.8,
+          "lastDate": "2026-10-22",
+          "ytdPct": -7.01,
+          "fromHighPct": -13.24,
+          "fromLowPct": 47.34,
           "sparkline": [
             136.3637,
             146.1489,
             132.8274,
             132.1492,
             130.1147,
-            110.0598,
+            110.1566,
             100.4683,
             99.2572,
             103.4717,
             104.1499,
             100.7589,
             94.229,
-            99.6448,
+            98.4337,
             99.2572,
             105.5062,
-            96.186,
+            98.4337,
             101.6793,
             93.7252,
-            99.2572,
-            98.0946,
+            98.7244,
+            97.5133,
             104.2,
             95.46,
-            89.52,
-            89.68,
+            89.0,
+            88.5,
             91.9,
-            91.62,
-            91.58,
+            88.96,
+            91.32,
             95.12,
-            107.4,
-            109.5,
-            107.3,
-            106.5,
-            105.1,
-            101.15,
+            107.2,
+            108.0,
+            106.15,
+            109.4,
+            106.6,
+            105.55,
             105.65,
-            103.75,
-            112.1,
-            110.85,
-            121.35,
-            123.95
+            106.1,
+            104.4,
+            110.9,
+            122.1,
+            126.8
           ],
           "fundamentals": {
             "revenueGrowthPct": 8.8,
             "operatingMarginPct": 10.5,
             "ruleOf40": 19.3,
-            "marketCap": 21049079808
+            "marketCap": 20575973376
           }
         },
         {
@@ -3320,7 +3320,7 @@
             "revenueGrowthPct": 6.2,
             "operatingMarginPct": 17.8,
             "ruleOf40": 24.0,
-            "marketCap": 158333894656
+            "marketCap": 152599986176
           }
         },
         {
@@ -3379,7 +3379,7 @@
             "revenueGrowthPct": -5.1,
             "operatingMarginPct": 2.0,
             "ruleOf40": -3.1,
-            "marketCap": 2569241344
+            "marketCap": 2570839040
           }
         }
       ]
